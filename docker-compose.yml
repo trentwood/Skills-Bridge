@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  job-architecture:
+    build:
+      context: .
+      dockerfile: Dockerfile.job
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./data/job_architecture:/app/data/job_architecture:ro
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
+
+  skill-extraction:
+    build:
+      context: .
+      dockerfile: Dockerfile.skills
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/skills:/app/data/skills:ro
+    environment:
+      - LOG_LEVEL=info
+    restart: unless-stopped
+
+# To run both services:
+# docker-compose up -d
+#
+# Or run individually:
+# docker-compose up job-architecture
+# docker-compose up skill-extraction
