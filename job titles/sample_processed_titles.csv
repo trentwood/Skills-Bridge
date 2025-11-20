@@ -1,0 +1,1001 @@
+Index,soc5_title,title_name,normalized,level,family
+566,Food Service Managers,Subway Managers,Head Of Managers,6,Food Service
+1391,Insurance Underwriters,Small Business Underwriters,Underwriter,2,Finance
+15520,"Layout Workers, Metal and Plastic",Talent Development Managers,Development Manager,4,Operations
+2408,Mechanical Engineers,Thermal Mechanical Engineers,Mechanical Engineer,2,Engineering
+16926,Computer Numerically Controlled Tool Operators     ,CNC Swiss Machinists,Cnc Machinist,2,Skilled Trades
+5487,Merchandise Displayers and Window Trimmers,Retail Merchandisers,Retail Merchandiser,2,Retail
+164,Administrative Services and Facilities Managers,Facilities Project Managers,Facilities Manager,4,Operations
+5009,Archivists,Special Collections Librarians,Librarian,2,Education
+9250,Animal Caretakers,Animal Caretakers,Animal Caretaker,2,Operations
+3120,"Life Scientists, All Other",Postdoctoral Researchers,Post-doctoral Fellow,2,Executive
+2341,Industrial Engineers,Human Factors Engineers,Human Factors Engineer,2,Executive
+4927,Self-Enrichment Teachers,General Music Teachers,Music Teacher,2,Education
+2143,Chemical Engineers,Process Engineers,Process Engineer,2,Engineering
+1824,"Computer Occupations, All Other",Principal Systems Engineers,System Engineer,2,Engineering
+12544,"Painters, Construction and Maintenance",Painters Helpers,Painter,2,Skilled Trades
+11540,Desktop Publishers,Powerpoint Designers,Designer,2,Design
+13982,Recreational Vehicle Service Technicians,Marine Service Technicians,Service Technician,2,Skilled Trades
+16664,"Inspectors, Testers, Sorters, Samplers, and Weighers",Quality Assurance Specialists,Quality Assurance Analyst,2,Executive
+16777,Ophthalmic Laboratory Technicians,Field Technicians,Field Technician,2,Skilled Trades
+3408,Survey Researchers,Survey Administrators,Surveyor,2,Data
+5946,Writers and Authors,UX Copywriters,User Experience Designer,2,Design
+17184,"Production Workers, All Other",Finishing Operators,Finisher,2,Operations
+13457,"Telecommunications Equipment Installers and Repairers, Except Line Installers",Satellite Installers,Satellite Installer,2,Skilled Trades
+2248,"Electronics Engineers, Except Computer",Control Systems Engineers,Control System Engineer,2,Engineering
+13679,Aircraft Mechanics and Service Technicians,Airframe Mechanics,Mechanic,2,Skilled Trades
+2516,"Engineers, All Other",Equipment Engineers,Equipment Engineer,2,Engineering
+12205,Carpet Installers,Floor Covering Installers,Flooring Installer,2,Skilled Trades
+4118,Healthcare Social Workers,Licensed Clinical Social Workers,Licensed Clinical Social Worker,2,Healthcare
+13151,"Service Unit Operators, Oil and Gas",Instrument People,Instrument Technician,2,Skilled Trades
+16795,Packaging and Filling Machine Operators and Tenders,Packaging Leads,Packager,2,Skilled Trades
+16925,Computer Numerically Controlled Tool Operators     ,Plasma Operators,Security Operations Center Operator,2,Engineering
+3989,"Educational, Guidance, and Career Counselors and Advisors",Placement Specialists,Sales Specialist,2,Sales
+2844,Animal Scientists,Swine Specialists,Sales Specialist,2,Sales
+12313,Terrazzo Workers and Finishers,Division Directors,Division Director,6,Executive
+14019,Mechanical Door Repairers,Door to Door Sales Representatives,Sales Representative,2,Sales
+423,Construction Managers,Residential Construction Project Managers,Construction Project Manager,4,Product
+4117,"Child, Family, and School Social Workers",School Therapists,Therapist,2,Healthcare
+7623,Orderlies,Clinical Support Managers,Clinical Manager,4,Healthcare
+7744,Physical Therapist Aides,Physical Therapist Aides,Physical Therapist,2,Healthcare
+10621,Payroll and Timekeeping Clerks,Certified Payroll Specialists,Payroll Specialist,2,Finance
+4244,Social and Human Service Assistants,Outreach Specialists,Outreach Specialist,2,Operations
+4945,Self-Enrichment Teachers,Voice Instructors,Instructor,2,Executive
+15234,Machinists,Prototype Machinists,Machinist,2,Skilled Trades
+974,Human Resources Specialists,Staffing Coordinators,Staffing Coordinator,2,Executive
+1812,Web Developers and Digital Interface Designers,Content Creators,Content Producer,2,Engineering
+7628,Orderlies,Dialysis Patient Care Technicians,Dialysis Technician,2,Skilled Trades
+13855,Rail Car Repairers,Manufacturing Mechanics,Manufacturing Specialist,2,Skilled Trades
+16817,"Painting, Coating, and Decorating Workers",Cake Decorators,Cake Decorator,2,Operations
+6381,Pharmacists,Night Pharmacists,Pharmacist,2,Healthcare
+2866,Animal Scientists,Continuous Integration Engineers,Integration Engineer,2,Engineering
+13797,Farm Equipment Mechanics and Service Technicians,Irrigation Managers,Irrigation Manager,4,Skilled Trades
+17789,Bridge and Lock Tenders,Bridge to Rediscovery Staff,Staff Member,2,Operations
+6701,Nurse Anesthetists,Anesthetists,Anesthesiologist,2,Healthcare
+6921,Psychiatrists,Adult Psychiatrists,Psychiatrist,2,Operations
+11432,Medical Secretaries and Administrative Assistants,Veterinary Receptionists,Veterinary Receptionist,2,Healthcare
+13186,"Excavating and Loading Machine and Dragline Operators, Surface Mining",Installers,Installer,2,Skilled Trades
+17908,Transportation Inspectors,Lead Ultrasound Technicians,Ultrasonographer,2,Executive
+6572,Speech-Language Pathologists,Speech Language Pathologist Assistants,Speech Language Pathologist,2,Operations
+8692,"Cooks, Short Order",Roadhouse Service Managers,Road Manager,4,Executive
+13966,Recreational Vehicle Service Technicians,Global Vehicle Technicians,Vehicle Technician,2,Skilled Trades
+9938,Gambling Change Persons and Booth Cashiers,Sales Clerks,Sales Clerk,2,Sales
+15676,Print Binding and Finishing Workers,Finishing Technicians,Finisher,2,Operations
+16593,"Cutting and Slicing Machine Setters, Operators, and Tenders",CNC Saw Operators,Saw Operator,2,Skilled Trades
+6786,Audiologists,School Speech Language Pathologists,Speech Language Pathologist,2,Operations
+3645,"Social Scientists and Related Workers, All Other",Traffic Control Technicians,Controls Technician,2,Data
+2144,Chemical Engineers,Process Control Engineers,Process Engineer,2,Engineering
+5757,Music Directors and Composers,Music Leaders,Sales Leader,2,Executive
+960,Cost Estimators,Commercial Roofing Estimators,Estimator,2,Operations
+2579,Mechanical Drafters,CAD Drafters,Cad Drafter,2,Skilled Trades
+8278,Parking Enforcement Workers,Networking Specialists,Network Specialist,2,Engineering
+6674,Registered Nurses,Telemetry Registered Nurses,Telemetry Nurse,2,Healthcare
+16571,"Cutters and Trimmers, Hand",Advertising Managers,Advertising Manager,4,Marketing
+4721,"Secondary School Teachers, Except Special and Career/Technical Education",Mathematics Teachers,Mathematics Teacher,2,Education
+17520,"Motor Vehicle Operators, All Other",Transport Drivers,Transport Driver,2,Skilled Trades
+4343,"Directors, Religious Activities and Education",Directors of Youth Ministries,Youth Director,6,Executive
+7300,Surgical Technologists,Medical Surgical Travel Registered Nurses,Travel Nurse,2,Healthcare
+14429,"Coin, Vending, and Amusement Machine Servicers and Repairers",Service Experience Representatives,Quality Service Representative,2,Skilled Trades
+15380,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Injection Molding Maintenance Technicians,Injection Mold Operator,2,Skilled Trades
+9921,Cashiers,Day Cashiers,Cashier,2,Retail
+14317,Musical Instrument Repairers and Tuners,Line Technicians,Line Technician,2,Skilled Trades
+16406,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",Line Pilots,Pilot,2,Skilled Trades
+11072,Reservation and Transportation Ticket Agents and Travel Clerks,Travel Clerks,Clerk,2,Operations
+1017,Farm Labor Contractors,Construction Crew Leaders,Crew Leader,2,Executive
+78,Marketing Managers,Digital Marketing Managers,Digital Marketer,2,Marketing
+7324,Veterinary Technologists and Technicians,Credentialed Veterinary Technicians,Veterinary Technician,2,Healthcare
+3444,Industrial-Organizational Psychologists,Organizational Development Managers,Organization Development Manager,4,Operations
+10774,"Credit Authorizers, Checkers, and Clerks",Corporate and Investment Banking Analysts,Investment Banking Analyst,2,Engineering
+3851,Forest and Conservation Technicians,Forestry Aides,Forester,2,Skilled Trades
+1157,"Compensation, Benefits, and Job Analysis Specialists",Benefit Programs Specialists,Benefit Specialist,2,Engineering
+9418,Costume Attendants,Cast Members,Actor,2,Executive
+8913,"Food Preparation and Serving Related Workers, All Other",School Food Services Managers,Food Manager,4,Food Service
+9220,Animal Trainers,Orientation and Mobility Specialists,Mobility Specialist,2,Operations
+17529,"Motor Vehicle Operators, All Other",Transportation Fleet Managers,Autonomous Haulage System Fleet Manager,4,Skilled Trades
+11742,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Harvest Managers,Harvest Manager,4,Operations
+7583,Home Health and Personal Care Aides,Companion Caregivers,Caregiver,2,Healthcare
+17847,Automotive and Watercraft Service Attendants,Station Attendants,Gas Station Attendant,2,Skilled Trades
+16401,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",Blenders,Blender Operator,2,Skilled Trades
+4533,Paralegals and Legal Assistants,Paralegal Assistants,Paralegal Assistant,1,Legal
+15616,Prepress Technicians and Workers,Surface Mount Operators,Security Operations Center Operator,2,Skilled Trades
+5182,"Teaching Assistants, Postsecondary",Pre-Kindergarten Teachers,Kindergarten Teacher,2,Education
+7201,Emergency Medical Technicians and Paramedics,Advanced Analysts,Data Analyst,2,Data
+9883,First-Line Supervisors of Retail Sales Workers,Store Management Trainees,Store Manager,4,Retail
+15310,"Model Makers, Metal and Plastic",Crate Builders,Builder,2,Design
+16990,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Car Wash Technicians,Car Wash Attendant,2,Skilled Trades
+7923,Veterinary Assistants and Laboratory Animal Caretakers,Emergency Veterinary Technicians,Veterinary Technician,2,Healthcare
+10729,"Court, Municipal, and License Clerks",Court Clerks,Court Clerk,2,Operations
+13294,Helpers--Extraction Workers,Observation Registered Nurses,Observer,2,Food Service
+14488,Locksmiths and Safe Repairers,Vault Tellers,Vault Teller,2,Skilled Trades
+6112,Photographers,Photographers,Photographer,2,Operations
+12247,Floor Sanders and Finishers,Flooring Technicians,Floor Technician,2,Skilled Trades
+8582,First-Line Supervisors of Food Preparation and Serving Workers,Key Supervisors,Supervisor Assistant,4,Food Service
+5157,Instructional Coordinators,Instructional Design Specialists,Instructional Designer,2,Executive
+6152,"Camera Operators, Television, Video, and Film",Directors of Photography,Photographer,2,Skilled Trades
+8156,Forest Fire Inspectors and Prevention Specialists,Azure Cloud Engineers,Cloud Engineer,2,Executive
+10875,"Hotel, Motel, and Resort Desk Clerks",Hotel Guest Service Agents,Guest Service Agent,2,Operations
+6266,Oral and Maxillofacial Surgeons,Dentist Oral Surgeons,Dentist,2,Healthcare
+7688,Occupational Therapy Assistants,Physical Therapists,Physical Therapist,2,Healthcare
+4018,Rehabilitation Counselors,Rehabilitation Specialists,Rehabilitation Specialist,2,Legal
+16329,Water and Wastewater Treatment Plant and System Operators,SCADA Specialists,Scada Specialist,2,Skilled Trades
+4502,"Judges, Magistrate Judges, and Magistrates",Municipal Court Judges,Judge,2,Operations
+18240,Wellhead Pumpers,Well Tenders,Wellness Manager,4,Operations
+13409,"Radio, Cellular, and Tower Equipment Installers and Repairers",Radio Technicians,Radio Operator,2,Skilled Trades
+546,Architectural and Engineering Managers,Electrical Engineering Managers,Electrical Engineer,2,Engineering
+5850,"News Analysts, Reporters, and Journalists     ",News Writers,News Editor,2,Data
+11629,"Office Machine Operators, Except Computer",Service Center Operators,Phone Operator,2,Skilled Trades
+13256,"Rock Splitters, Quarry",Patrol Officers,Patrol Officer,2,Operations
+15902,"Textile Cutting Machine Setters, Operators, and Tenders",Sheet Metal Mechanics,Sheet Metal Mechanic,2,Skilled Trades
+14932,Slaughterers and Meat Packers,Process Superintendents,Superintendent,2,Operations
+15990,Fabric and Apparel Patternmakers,Production Patternmakers,Production Worker,2,Operations
+8674,"Cooks, Short Order",Grill Cooks,Grill Cook,2,Executive
+979,Human Resources Specialists,Human Resources Recruiters,Human Resources Specialist,2,HR
+8549,Chefs and Head Cooks,Banquet Chefs,Banquet Cook,2,Executive
+3818,Social Science Research Assistants,Research Scientists,Research Scientist,2,Data
+7572,Home Health and Personal Care Aides,Special Needs Caregivers,Caregiver,2,Healthcare
+548,Architectural and Engineering Managers,Industrial Project Managers,Industrial Engineering Manager,4,Engineering
+297,"Transportation, Storage, and Distribution Managers",Supply Chain Operations Managers,Supply Chain Manager,4,Operations
+17713,"Captains, Mates, and Pilots of Water Vessels",Pilots Captain,Pilot,2,Operations
+3089,Epidemiologists,District Nurses,Registered Nurse,2,Healthcare
+4911,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",Special Needs Coordinators,Special Projects Coordinator,2,Executive
+3970,"Educational, Guidance, and Career Counselors and Advisors",Employment Specialists,Employment Specialist,2,Design
+9415,Costume Attendants,Costume Directors,Managing Director,6,Executive
+14977,Food Batchmakers,Production Chefs,Chef,2,Food Service
+721,Social and Community Service Managers,Program Coordinators,Program Coordinator,2,Executive
+2867,Animal Scientists,Modeling and Simulation Analysts,Model,2,Data
+12228,"Floor Layers, Except Carpet, Wood, and Hard Tiles",Journeyman Installers,Installer,2,Skilled Trades
+10406,First-Line Supervisors of Office and Administrative Support Workers,Front Office Managers,Front Office Manager,4,Operations
+7343,Ophthalmic Medical Technicians,Ophthalmic Assistants,Ophthalmic Assistant,1,Healthcare
+3397,Survey Researchers,Survey Statisticians,Statistician,2,Data
+4718,"Career/Technical Education Teachers, Middle School",School Education Managers,Education Manager,4,Education
+10268,Real Estate Brokers,Pool Monitors,Monitor,2,Operations
+14295,Medical Equipment Repairers,General Maintenance Technicians,General Maintenance,2,Skilled Trades
+14069,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",Commercial HVAC Service Technicians,Hvac Technician,2,Skilled Trades
+4364,"Directors, Religious Activities and Education",Youth and Family Directors,Youth Director,6,Executive
+3145,Astronomers,Postdoctoral Fellows,Post-doctoral Fellow,2,Executive
+1044,Logisticians,Production Planners,Production Scheduler,2,Operations
+737,Social and Community Service Managers,Social Services Managers,Director Of Social Services,6,Executive
+13691,Automotive Body and Related Repairers,Collision Technicians,Digital Systems Technician,2,Skilled Trades
+1656,Computer User Support Specialists,Computer Technicians,Computer Technician,2,Customer Success
+1807,Web Developers and Digital Interface Designers,Web Application Developers,Web Developer,2,Engineering
+7539,Genetic Counselors,Physicians,Physician,2,Healthcare
+17366,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",First Responders,First Responder,2,Skilled Trades
+3022,Conservation Scientists,Natural Resources Scientists,Natural Resource Technician,2,Data
+3340,Hydrologists,Bread Bakers,Baker,2,Operations
+6471,Physical Therapists,Inpatient Physical Therapists,Physical Therapist,2,Healthcare
+11503,Data Entry Keyers,Transaction Processors,Processor,2,Data
+7936,Veterinary Assistants and Laboratory Animal Caretakers,Certified Veterinary Assistants,Veterinary Assistant,1,Healthcare
+3992,"Educational, Guidance, and Career Counselors and Advisors",Student Success Advisors,Student Advisor,2,Design
+442,"Education and Childcare Administrators, Preschool and Daycare",Team Leads,Customer Service Team Lead,2,Education
+11216,"Meter Readers, Utilities",Route Relief Representatives,Route Sales Representative,2,Sales
+438,"Education and Childcare Administrators, Preschool and Daycare",Directors of Early Childhood Education,Early Childhood Educator,2,Education
+15048,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",Engineering Technicians,Engineering Technician,2,Skilled Trades
+739,Social and Community Service Managers,Housing Case Managers,Housing Manager,4,Operations
+12800,Helpers--Carpenters,Framing Carpenters,Carpenter,2,Skilled Trades
+13782,Bus and Truck Mechanics and Diesel Engine Specialists,Heavy Duty Diesel Mechanics,Heavy Duty Mechanic,2,Skilled Trades
+6493,Radiation Therapists,Certified Medical Dosimetrists,Medical Technician,2,Healthcare
+15666,Print Binding and Finishing Workers,Bindery Helpers,Bindery,2,Operations
+9236,Animal Caretakers,Pet Groomers,Pet Groomer,2,Operations
+928,Compliance Officers,Environmental Compliance Specialists,Environmental Specialist,2,Legal
+33,General and Operations Managers,District Managers,District Manager,4,Operations
+7758,Physical Therapist Aides,Hospital Attendants,Attendant,2,Healthcare
+13099,Miscellaneous Construction and Related Workers,Rangers,Park Ranger,2,Skilled Trades
+15651,Printing Press Operators,Silk Screen Printers,Screen Printer,2,Skilled Trades
+5592,Producers and Directors,Digital Producers,Producer,2,Executive
+17326,Airfield Operations Specialists,Airport Managers,Airport Manager,4,Operations
+12766,Solar Photovoltaic Installers,Solar Journeyman Electricians,Journeyman Electrician,2,Skilled Trades
+13882,Motorboat Mechanics and Service Technicians,Ford Certified Technicians,Certified Pharmacy Technician,2,Skilled Trades
+5335,Special Effects Artists and Animators,3D Modelers,3d Modeler,2,Design
+17720,"Captains, Mates, and Pilots of Water Vessels",Cruise Staff,Staff Member,2,Operations
+10200,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Counter Sales Representatives,Counter Sales Representative,2,Sales
+2322,Industrial Engineers,Supplier Quality Engineers,Supplier Quality And Reliability Engineer,2,Engineering
+1631,Computer Network Support Specialists,Network Operations Analysts,Network Analyst,2,Customer Success
+10462,Telephone Operators,Communications Center Operators,Communications Operator,2,Marketing
+4315,"Community and Social Service Specialists, All Other",Community Education Specialists,Education Specialist,2,Operations
+9854,"Crematory Operators and Personal Care and Service Workers, All Other",Service Runners,Runner,2,Skilled Trades
+4565,"Title Examiners, Abstractors, and Searchers",Settlement Processors,Processor,2,Executive
+3235,Chemists,Process Chemists,Chemist,2,Operations
+4935,Self-Enrichment Teachers,CPR and First Aid Instructors,First Aid Instructor,2,Executive
+13947,Bicycle Repairers,Shop Technicians,Shop Technician,2,Skilled Trades
+14537,Riggers,Automation Technicians,Automation Engineer,2,Engineering
+14297,Medical Equipment Repairers,Field Service Technicians,Field Service Engineer,2,Engineering
+2184,Civil Engineers,Lead Civil Engineers,Civil Engineer,2,Engineering
+10535,Billing and Posting Clerks,Billing Representatives,Billing Representative,2,Finance
+16262,Power Plant Operators,Asphalt Plant Operators,Plant Operator,2,Skilled Trades
+13469,Avionics Technicians,Field Technicians,Field Technician,2,Skilled Trades
+4278,Community Health Workers,Navigators,Nurse Navigator,2,Healthcare
+1862,Actuaries,Property and Casualty Agents,Real Estate Agent,2,Sales
+2242,Electrical Engineers,Engineers,Design Engineer,2,Engineering
+8159,Forest Fire Inspectors and Prevention Specialists,Fire Technicians,Fire Engineer,2,Executive
+16504,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",Manufacturing Managers,Manufacturing Manager,4,Operations
+14241,Telecommunications Line Installers and Repairers,Network Cable Technicians,Cable Technician,2,Skilled Trades
+17594,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers     ",F-15 Crew Chiefs,Crew Supervisor,4,Skilled Trades
+4929,Self-Enrichment Teachers,Enrichment Instructors,Instructor,2,Executive
+8889,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Cashiers,Cashier,2,Food Service
+6988,"Surgeons, Except Ophthalmologists",Mohs Surgeons,Surgeon,2,Healthcare
+1694,Network and Computer Systems Administrators,Network Administrators,Network Administrator,2,Engineering
+9952,Gambling Change Persons and Booth Cashiers,Technical Professionals,Technical Specialist,2,Engineering
+565,Food Service Managers,Restaurant Shift Managers,Restaurant Manager,4,Food Service
+10126,Travel Agents,Corporate Travel Specialists,Travel Consultant,2,Operations
+6446,Occupational Therapists,Outpatient Occupational Therapists,Outpatient Therapist,2,Healthcare
+10341,Telemarketers,Outbound Call Center Representatives,Outbound Customer Service Representative,2,Customer Success
+419,Construction Managers,Directors of Construction,Director Of Construction,6,Executive
+10571,"Bookkeeping, Accounting, and Auditing Clerks",Accounts Receivable Analysts,Accounts Receivable Clerk,2,Finance
+12178,Carpenters,Construction Carpenters,Carpenter,2,Skilled Trades
+13012,Highway Maintenance Workers,General Transportation Technicians,Transportation Technician,2,Skilled Trades
+12036,Log Graders and Scalers,Summer Interns,Summer Associate,2,Operations
+13591,"Electronic Equipment Installers and Repairers, Motor Vehicles",Mobile Electronics Installers,Installer,2,Skilled Trades
+6525,Recreational Therapists,Lead Therapists,Therapist,2,Healthcare
+15919,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",Operations Performance Managers,Performance Manager,4,Skilled Trades
+11938,Fishing and Hunting Workers     ,Firearms Instructors,Instructor,2,Executive
+3691,Agricultural and Food Science Technicians,Lead Quality Technicians,Quality Technician,2,Skilled Trades
+14391,"Maintenance and Repair Workers, General",Building Maintenance Technicians,Building Maintenance,2,Skilled Trades
+12708,Sheet Metal Workers,Sheet Metal Journeymen,Sheet Metal Mechanic,2,Skilled Trades
+5158,Instructional Coordinators,Instructional Technologists,Technologist,2,Executive
+9272,Gambling Dealers,Table Games Dual Rate Supervisors,Casino Dealer,2,Operations
+3800,Nuclear Technicians,Equipment Operators,Equipment Operator,2,Skilled Trades
+17757,Motorboat Operators,Sales Ambassadors,Ambassador,2,Skilled Trades
+3087,Epidemiologists,Disease Management Nurses,Nurse Manager,4,Healthcare
+14191,"Refractory Materials Repairers, Except Brickmasons",Advertisers,Advertising Sales Representative,2,Executive
+13619,Audiovisual Equipment Installers and Repairers,Lead Installers,Lead Installer,2,Skilled Trades
+10655,Tellers,Sales and Service Specialists,Sales Specialist,2,Sales
+7245,Pharmacy Technicians,Retail Pharmacy Technicians,Pharmacy Technician,2,Healthcare
+6443,Occupational Therapists,Travel Occupational Therapists,Occupational Therapist,2,Healthcare
+5611,Producers and Directors,Video Content Producers,Content Producer,2,Executive
+2765,Industrial Engineering Technologists and Technicians,Machine Maintenance Technicians,Machine Technician,2,Engineering
+4932,Self-Enrichment Teachers,Music Instructors,Music Teacher,2,Education
+5875,Public Relations Specialists,Media Planners,Media Planner,2,Marketing
+17285,Commercial Pilots,Military Pilots,Pilot,2,Operations
+17244,"Airline Pilots, Copilots, and Flight Engineers",Lead Captains,Captain,2,Engineering
+3762,"Environmental Science and Protection Technicians, Including Health",Solid Waste Managers,Waste Manager,4,Healthcare
+3182,Physicists,Postdoctoral Associates,Post-doctoral Fellow,2,Executive
+7878,Medical Transcriptionists,Engineers in Training,Technical Training Engineer,2,Engineering
+6389,Pharmacists,Clinical Oncology Pharmacists,Clinical Pharmacist,2,Healthcare
+3095,"Medical Scientists, Except Epidemiologists",Medical Science Liaisons,Liaison,2,Healthcare
+328,Human Resources Managers,Talent Acquisition Managers,Recruitment Manager,4,HR
+4781,"Special Education Teachers, Preschool",Special Needs Assistants,Special Assistant,1,Education
+11525,Word Processors and Typists,Gift Processing Specialists,Process Technician,2,Skilled Trades
+13901,Motorcycle Mechanics,Sales Ambassadors,Ambassador,2,Skilled Trades
+4604,Postsecondary Teachers,After School Instructors,Instructor,2,Executive
+239,Industrial Production Managers,Manufacturing Project Managers,Manufacturing Manager,4,Operations
+6000,Court Reporters and Simultaneous Captioners,Environmental Services Technicians,Environmental Services Attendant,2,Operations
+9789,Recreation Workers,Camp Counselors,Camp Counselor,2,Legal
+7455,Hearing Aid Specialists,Dietary Aides,Dietary Aide,2,Healthcare
+3242,Chemists,Organic Chemists,Chemist,2,Operations
+7722,Physical Therapist Assistants,Outpatient Physical Therapists,Outpatient Therapist,2,Healthcare
+17899,Transportation Inspectors,Supervisory Aviation Safety Inspectors,Inspector,2,Executive
+2475,Petroleum Engineers,Proposal Leads,Proposal Manager,4,Engineering
+6901,"Pediatricians, General",Pediatric Medical Assistants,Pediatrician,2,Operations
+1723,Database Administrators and Architects,Data Center Technicians,Data Center Technician,2,Engineering
+12945,Elevator and Escalator Installers and Repairers,Program Directors,Program Director,6,Executive
+4356,"Directors, Religious Activities and Education",Directors of Children and Family Ministries,Associate Director,6,Executive
+1501,Tax Preparers,Certified Tax Preparers,Tax Preparer,2,Finance
+4102,"Child, Family, and School Social Workers",Interventionists,Intervention Specialist,2,Operations
+8979,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",Night Cleaners,Cleaner,2,Skilled Trades
+10001,Parts Salespersons,Automotive Parts Managers,Parts Manager,4,Sales
+8193,Correctional Officers and Jailers,Detention Officers,Correctional Officer,2,Operations
+13611,Audiovisual Equipment Installers and Repairers,Satellite TV Technicians,Satellite Technician,2,Skilled Trades
+9649,Skincare Specialists,Advanced Practice Clinicians,Advanced Practice Registered Nurse,2,Healthcare
+3143,Astronomers,Postdoctoral Scientists,Post-doctoral Fellow,2,Executive
+7718,Physical Therapist Assistants,Home Health Physical Therapy Assistants,Physical Therapy Aide,2,Healthcare
+13697,Automotive Body and Related Repairers,Auto Body Paint Preppers,Auto Body Technician,2,Skilled Trades
+2847,Animal Scientists,Implementation Project Managers,Implementation Specialist,2,Data
+713,"Property, Real Estate, and Community Association Managers",Residential Property Managers,Residential Manager,4,Operations
+16046,"Textile, Apparel, and Furnishings Workers, All Other",Distributors,Distributor,2,Operations
+17250,"Airline Pilots, Copilots, and Flight Engineers",Fighter Pilots,Pilot,2,Engineering
+10195,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Business Development Specialists,Business Development Specialist,2,Sales
+9374,"Ushers, Lobby Attendants, and Ticket Takers",Team Attendants,Attendant,2,Operations
+12761,Solar Photovoltaic Installers,Field Solar Specialists,Field Technician,2,Skilled Trades
+13631,Audiovisual Equipment Installers and Repairers,Sign Installers,Installer,2,Skilled Trades
+16019,Upholsterers,Makeup Artists,Makeup Artist,2,Design
+14252,Camera and Photographic Equipment Repairers,Modification Specialists,Sales Specialist,2,Sales
+9899,First-Line Supervisors of Non-Retail Sales Workers,Group Sales Managers,Group Manager,5,Operations
+11162,Public Safety Telecommunicators,Emergency Dispatchers,Emergency Dispatcher,2,Operations
+14389,"Maintenance and Repair Workers, General",Hotel Maintenance Engineers,Maintenance Engineer,2,Skilled Trades
+16087,Furniture Finishers,Furniture Repair Technicians,Repair Technician,2,Skilled Trades
+6643,Veterinarians,Relief Veterinarians,Veterinarian,2,Operations
+8303,Police and Sheriffs Patrol Officers,Campus Police Officers,Police Officer,2,Operations
+5019,Archivists,Library and Archives Interns,Library Assistant,1,Operations
+15786,Shoe and Leather Workers and Repairers,Pallet Jack Operators,Pallet Jack Operator,2,Skilled Trades
+15287,"Model Makers, Metal and Plastic",Tooling Technicians,Tooling Manager,4,Operations
+8720,Food Preparation Workers,Food Prep Helpers,Food Preparation Worker,2,Food Service
+13543,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Industrial Equipment Mechanics,Industrial Mechanic,2,Skilled Trades
+4821,"Special Education Teachers, Middle School",Special Education Teachers,Special Education Teacher,2,Education
+12873,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",Sprinkler Technicians,Service Technician,2,Skilled Trades
+16701,Jewelers and Precious Stone and Metal Workers,Fine Jewelry Managers,Fine Jewelry Sales Associate,2,Executive
+6310,"Dentists, All Other Specialists",Dentists - Endodontist,Dentist,2,Healthcare
+12516,"Insulation Workers, Floor, Ceiling, and Wall",Crew Chiefs,Crew Supervisor,4,Operations
+8929,First-Line Supervisors of Housekeeping and Janitorial Workers,Housekeeping Leads,Housekeeper,2,Skilled Trades
+15428,Tool and Die Makers,Fixture Designers,Designer,2,Design
+16727,Dental Laboratory Technicians,Day Traders,Trader,2,Healthcare
+18143,"Packers and Packagers, Hand",Warehousers,Warehouse Worker,2,Operations
+28,General and Operations Managers,Assistant Operations Managers,Operations Manager,4,Operations
+4490,"Arbitrators, Mediators, and Conciliators",Sales Negotiators,Sales Representative,2,Sales
+10283,Real Estate Sales Agents,Apartment Leasing Consultants,Leasing Consultant,2,Sales
+11725,"Office and Administrative Support Workers, All Other",Front Office Managers,Front Office Manager,4,Operations
+17587,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers     ",Train Crews,Crew Member,2,Skilled Trades
+1590,Information Security Analysts,Cyber Threat Analysts,Cybersecurity Incident Responder,2,Engineering
+11424,Legal Secretaries and Administrative Assistants,Insurance Defense Paralegals,Paralegal,2,Legal
+8960,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",Lawn Care Technicians,Lawn Technician,2,Skilled Trades
+7596,Nursing Assistants,Behavior Technicians,Behavior Technician,2,Healthcare
+11201,"Dispatchers, Except Police, Fire, and Ambulance",Emergency Dispatchers,Emergency Dispatcher,2,Operations
+1210,Market Research Analysts and Marketing Specialists,Digital Marketing Analysts,Digital Marketer,2,Marketing
+17318,Airfield Operations Specialists,Parking Services Officers,Parking Attendant,2,Operations
+16369,Gas Plant Operators,Gas Technicians,Gas Attendant,2,Skilled Trades
+9449,"Locker Room, Coatroom, and Dressing Room Attendants",Member Services Attendants,Member Services Representative,2,Operations
+174,Administrative Services and Facilities Managers,Facilities Assistants,Facilities Assistant,1,Operations
+13343,"Underground Mining Machine Operators and Extraction Workers, All Other ",Yardmen,Yard Worker,2,Skilled Trades
+240,Industrial Production Managers,Sanitation Managers,Sanitation Worker,2,Operations
+17200,Aircraft Cargo Handling Supervisors,Equipment Service Managers,Equipment Manager,4,Operations
+1597,Computer and Information Research Scientists,Research Engineers,Research Engineer,2,Data
+740,Social and Community Service Managers,Youth Program Leaders,Youth Leader,2,Operations
+3121,"Life Scientists, All Other",Postdoctoral Research Fellows,Post-doctoral Fellow,2,Executive
+15431,Tool and Die Makers,Machine Tool Builders,Builder,2,Design
+10927,"Library Assistants, Clerical",Substitute Clerks,Substitute,2,Operations
+2027,Cartographers and Photogrammetrists,Survey Specialists,Survey Technician,2,Skilled Trades
+15232,Machinists,Swiss Machinists,Machinist,2,Skilled Trades
+12322,Terrazzo Workers and Finishers,Surface Designers,Designer,2,Design
+8215,Correctional Officers and Jailers,Pretrial Services Officers,Community Service Officer,2,Operations
+6672,Registered Nurses,Emergency Room Registered Nurses,Registered Nurse - Emergency Room,2,Healthcare
+9958,Counter and Rental Clerks,Desk Attendants,Desk Attendant,2,Operations
+3201,Atmospheric and Space Scientists,Climate Change Specialists,Climate Change Specialist,2,Data
+17953,"Aircraft Service Attendants and Transportation Workers, All Other",Camp Instructors,Instructor,2,Executive
+10536,Billing and Posting Clerks,Reimbursement Specialists,Reimbursement Specialist,2,Finance
+1949,"Data Scientists and Mathematical Science Occupations, All Other",Lead Data Scientists,Lead Data Scientist,2,Data
+5241,"Educational Instruction and Library Workers, All Other",Examiners,Examiner,2,Operations
+11913,"Agricultural Workers, All Other",Dump Truck Operators,Dump Truck Driver,2,Skilled Trades
+10177,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Field Sales Executives,Field Sales Representative,2,Sales
+1149,"Compensation, Benefits, and Job Analysis Specialists",Compensation Specialists,Compensation Analyst,2,HR
+14282,Medical Equipment Repairers,Equipment Service Technicians,Equipment Technician,2,Skilled Trades
+6523,Recreational Therapists,Therapeutic Specialists,Therapeutic Staff Support,2,Healthcare
+6279,Oral and Maxillofacial Surgeons,Exodontists,Orthodontic Assistant,1,Healthcare
+17386,Driver/Sales Workers,Delivery Drivers,Delivery Driver,2,Sales
+7321,Veterinary Technologists and Technicians,Lead Veterinary Technicians,Veterinary Technician,2,Healthcare
+11425,Legal Secretaries and Administrative Assistants,Law Office Administrators,Office Administrator,2,Operations
+6735,Nurse Midwives,Nursery Nurses,Nursery Worker,2,Healthcare
+14007,Tire Repairers and Changers,Client Experience Experts,Client Specialist,2,Skilled Trades
+12008,Logging Equipment Operators,Fire Equipment Operators,Equipment Operator,2,Skilled Trades
+1901,Operations Research Analysts,Research Specialists,Research Specialist,2,Data
+8044,First-Line Supervisors of Firefighting and Prevention Workers,Prevention Coordinators,Loss Prevention Manager,4,Operations
+12581,Paperhangers,Summer Interns,Summer Associate,2,Operations
+9037,Pest Control Workers,Pest Control Specialists,Pest Control Technician,2,Skilled Trades
+9549,Barbers,Directors of Luxury Sales,Sales Director,6,Executive
+18242,Wellhead Pumpers,Experienced Hire Recruiters,Recruiter,2,Design
+10985,Order Clerks,Preservation Managers,Property Preservation Specialist,2,Operations
+7258,Pharmacy Technicians,IV Pharmacy Technicians,Pharmacy Technician,2,Healthcare
+12481,Glaziers,Power Installers,Installer,2,Skilled Trades
+1366,Personal Financial Advisors,Quality Assurance Advisors,Quality Assurance Analyst,2,Data
+18192,Gas Compressor and Gas Pumping Station Operators,Compressor Operators,Security Operations Center Operator,2,Engineering
+6963,"Physicians, All Other; and Ophthalmologists, Except Pediatric",Cardiologists,Cardiology Physician,2,Healthcare
+482,"Education Administrators, Postsecondary",Admissions Coordinators,Admissions Coordinator,2,Executive
+5568,Actors,Costume Characters,Character Animator,2,Executive
+17504,"Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity",Substitute Bus Drivers,Bus Driver,2,Engineering
+3195,Atmospheric and Space Scientists,Morning Meteorologists,Meteorologist,2,Data
+15730,"Pressers, Textile, Garment, and Related Materials",Data Entry Clerks,Data Entry Clerk,2,Data
+15396,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Tooling Technicians,Tooling Manager,4,Skilled Trades
+7166,Magnetic Resonance Imaging Technologists,Computed Tomography Technologists,Technologist,2,Operations
+4152,Mental Health and Substance Abuse Social Workers,Substance Abuse Specialists,Substance Abuse Counselor,2,Healthcare
+3084,Epidemiologists,Continuous Improvement Specialists,Learning And Development Facilitator,2,HR
+16286,Stationary Engineers and Boiler Operators,Stationary Engineers,Stationary Engineer,2,Engineering
+10795,Customer Service Representatives,Customer Care Specialists,Customer Care Specialist,2,Customer Success
+1108,"Meeting, Convention, and Event Planners",Event Sales Coordinators,Event Coordinator,2,Executive
+14181,Millwrights,Equipment Installers,Installer,2,Skilled Trades
+7556,"Health Information Technologists, Medical Registrars, Surgical Assistants, and Healthcare Practitioners and Technical Workers, All Other     ",Tumor Registrars,Registrar,2,Healthcare
+13506,"Electric Motor, Power Tool, and Related Repairers",Loan Modification Specialists,Loan Specialist,2,Finance
+17760,Motorboat Operators,Ambassadors,Ambassador,2,Skilled Trades
+9987,Parts Salespersons,Auto Parts Delivery Drivers,Parts Driver,2,Sales
+15708,Laundry and Dry-Cleaning Workers,Breakfast Attendants,Breakfast Attendant,2,Operations
+12017,Log Graders and Scalers,Yard Operators,Yard Driver,2,Skilled Trades
+17612,Railroad Conductors and Yardmasters,Conductors,Conductor,2,Executive
+6327,Dietitians and Nutritionists,WIC Nutritionists,Nutritionist,2,Operations
+10515,Bill and Account Collectors,Employee Benefits Account Managers,Benefits Manager,4,Executive
+1908,Operations Research Analysts,Business Operations Specialists,Business Operations Manager,4,Data
+11000,Order Clerks,Purchase Order Coordinators,Purchasing Coordinator,2,Executive
+10147,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Specialized Consultants,Special Case Consultant,2,Sales
+2841,"Calibration Technologists and Technicians and Engineering Technicians, Except Drafters, All Other",Healthcare Technicians,Health Information Technician,2,Healthcare
+10519,Bill and Account Collectors,Collections Clerks,Collections Clerk,2,Executive
+747,Emergency Management Directors,Case Management Specialists,Case Manager,4,Executive
+15049,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",Loader Operators,Loader Operator,2,Skilled Trades
+8879,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",Deli Hosts,Deli Associate,2,Food Service
+4647,"Kindergarten Teachers, Except Special Education",Kindergarten Teacher Assistants,Kindergarten Teacher,2,Education
+6971,"Surgeons, Except Ophthalmologists",Neurosurgeons,Neurologist,2,Healthcare
+10873,"Hotel, Motel, and Resort Desk Clerks",Front Desk Receptionists,Front Desk Agent,2,Operations
+9187,"First-Line Supervisors of Personal Service and Entertainment Workers, Except Gambling Services",Aquatics Supervisors,Aquatics Manager,4,Operations
+1624,Computer Network Support Specialists,Systems Support Representatives,Customer Support Representative,2,Customer Success
+2352,Marine Engineers and Naval Architects,Third Assistant Engineers,Engineering Assistant,1,Engineering
+15568,"Tool Grinders, Filers, and Sharpeners",Bioanalytical Scientists,Scientist,2,Data
+268,Purchasing Managers,Procurement Supervisors,Procurement Manager,4,Operations
+11066,Reservation and Transportation Ticket Agents and Travel Clerks,Airport Agents,Agent Assistant,1,Operations
+2909,Soil and Plant Scientists,Soil Conservationists,Nature Conservation Officer,2,Data
+12315,Terrazzo Workers and Finishers,Laborer Journeymen,Laborer,2,Operations
+2026,Cartographers and Photogrammetrists,Drone Operators,Drone Technician,2,Skilled Trades
+8529,"School Bus Monitors and Protective Service Workers, All Other",Asset Protection Officers,Asset Protection Associate,2,Operations
+13888,Motorcycle Mechanics,Driver Mechanics,Driver,2,Skilled Trades
+17487,"Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity",School Bus Drivers,Bus Driver,2,Engineering
+1009,Farm Labor Contractors,Licensed Alcohol and Drug Counselors,Licensed Professional Counselor,2,Executive
+13566,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Dispatchers,Dispatcher,2,Skilled Trades
+16152,"Sawing Machine Setters, Operators, and Tenders, Wood",Concessions Runners,Runner,2,Skilled Trades
+8981,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",Restoration Technicians,Restoration Technician,2,Skilled Trades
+14048,"Control and Valve Installers and Repairers, Except Mechanical Door",Meter Installers,Installer,2,Skilled Trades
+8750,Fast Food and Counter Workers     ,Crew Members,Crew Member,2,Operations
+8074,"Miscellaneous First-Line Supervisors, Protective Service Workers",Security Supervisors,Security Supervisor,4,Engineering
+1722,Database Administrators and Architects,Salesforce Administrators,Salesforce Administrator,2,Engineering
+18313,"Material Moving Workers, All Other",Materials Leads,Materials Manager,4,Operations
+8785,Waiters and Waitresses,Carhops,Carhop,2,Food Service
+1578,Information Security Analysts,Cybersecurity Managers,Cyber Security Manager,4,Engineering
+10352,Telemarketers,Outbound Agents,Outbound Customer Service Representative,2,Customer Success
+362,Training and Development Managers,Directors of Training and Development,Director Of Training,6,Executive
+1112,"Meeting, Convention, and Event Planners",Event Planning Managers,Event Planner,2,Marketing
+8818,"Food Servers, Nonrestaurant",Station Attendants,Gas Station Attendant,2,Food Service
+9102,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",Tree and Shrub Specialists,Sales Specialist,2,Sales
+889,"Claims Adjusters, Examiners, and Investigators",Loss Control Inspectors,Quality Control Inspector,2,Executive
+343,Human Resources Managers,Human Resources and Payroll Administrators,Human Resources Administrator,2,HR
+11632,"Office Machine Operators, Except Computer",Shipping Specialists,Shipping And Receiving Clerk,2,Skilled Trades
+11335,"Shipping, Receiving, and Inventory Clerks",Receiving Associates,Receiving Associate,2,Operations
+6262,Oral and Maxillofacial Surgeons,Oral Surgeons,Surgeon,2,Healthcare
+4993,"Tutors and Teachers and Instructors, All Other",Adjunct College Professors,Adjunct Professor,2,Executive
+3885,Forensic Science Technicians,Mammography Technicians,Mammography Technologist,2,Skilled Trades
+1895,Operations Research Analysts,Research Assistants,Research Assistant,1,Data
+3917,"Life, Physical, and Social Science Technicians, All Other",Air Quality Specialists,Quality Specialist,2,Skilled Trades
+1109,"Meeting, Convention, and Event Planners",Special Events Planners,Special Events Manager,4,Marketing
+929,Compliance Officers,Risk and Compliance Analysts,Risk Analyst,2,Data
+14502,Manufactured Building and Mobile Home Installers,Installation Crew Members,Installer,2,Design
+3556,Anthropologists and Archeologists,Health Volunteers,Volunteer,2,Operations
+17095,"Paper Goods Machine Setters, Operators, and Tenders",Cutter Operators,Cutter,2,Skilled Trades
+15641,Printing Press Operators,Flexographic Press Operators,Press Operator,2,Skilled Trades
+1853,Actuaries,Actuarial Services Managers,Reinsurance Manager,4,Operations
+1379,Insurance Underwriters,Life Underwriters,Underwriter,2,Finance
+5940,Writers and Authors,Blog Writers,Writer,2,Operations
+15792,Shoe Machine Operators and Tenders,Strength Coaches,Personal Trainer,2,Skilled Trades
+5229,"Educational Instruction and Library Workers, All Other",Enrollment Agents,Enrollment Specialist,2,Operations
+9214,Animal Trainers,Certified Professional Dog Trainers,Dog Trainer,2,Operations
+15315,"Patternmakers, Metal and Plastic",Foundry Managers,Head Of Managers,6,Operations
+4992,"Tutors and Teachers and Instructors, All Other",Middle School Teachers,School Teacher,2,Executive
+2492,Petroleum Engineers,Certification Engineers,Design Engineer,2,Engineering
+1625,Computer Network Support Specialists,Network Support Technicians,Network Technician,2,Customer Success
+3951,Occupational Health and Safety Technicians,Safety and Training Coordinators,Training Coordinator,2,Executive
+14364,"Precision Instrument and Equipment Repairers, All Other",Instrumentation Technicians,Instrumentation Technician,2,Skilled Trades
+10763,"Credit Authorizers, Checkers, and Clerks",Credit Products Officers,Chief Credit Officer,9,Engineering
+2501,"Engineers, All Other",Energy Engineers,Energy Engineer,2,Engineering
+6480,Physical Therapists,Hospital Physical Therapists,Physical Therapist,2,Healthcare
+4687,"Elementary School Teachers, Except Special Education",Key Stage 4 Teachers,Teacher,2,Education
+17933,Passenger Attendants,Transportation Bus Drivers,Bus Driver,2,Skilled Trades
+13642,Security and Fire Alarm Systems Installers,Alarm Service Technicians,Alarm Technician,2,Engineering
+12406,Operating Engineers and Other Construction Equipment Operators,Boiler Engineers,Boiler Operator,2,Skilled Trades
+10111,Travel Agents,Travel Medical Technologists,Medical Technologist,2,Healthcare
+12370,"Paving, Surfacing, and Tamping Equipment Operators",Equipment Operators,Equipment Operator,2,Skilled Trades
+7156,Radiologic Technologists and Technicians,Interventional Radiology Technicians,Interventional Radiology Nurse,2,Healthcare
+4495,"Judges, Magistrate Judges, and Magistrates",Judges,Judge,2,Operations
+3739,Chemical Technicians,Chemical Applicators,Chemical Technician,2,Skilled Trades
+7381,Licensed Practical and Licensed Vocational Nurses,Medical Surgical Registered Nurses,Registered Nurse,2,Healthcare
+5222,"Educational Instruction and Library Workers, All Other",Test Examiners,Examiner,2,Operations
+15244,Metal-Refining Furnace Operators and Tenders,Utility Workers,Utility Worker,2,Skilled Trades
+12135,Brickmasons and Blockmasons,Block Clerks,Clerk,2,Operations
+12638,Plasterers and Stucco Masons,Utility Foremen,Utility Worker,2,Operations
+18298,"Tank Car, Truck, and Ship Loaders",Quality Control Operators,Control Room Operator,2,Skilled Trades
+14997,Food Cooking Machine Operators and Tenders,Crusher Operators,Security Operations Center Operator,2,Executive
+15301,"Model Makers, Metal and Plastic",Builder Assistants,Builder,2,Design
+8384,Private Detectives and Investigators,Skip Tracers,Contact Tracer,2,Operations
+10908,"Library Assistants, Clerical",Library Media Assistants,Library Assistant,1,Operations
+3689,Agricultural and Food Science Technicians,Agronomy Managers,Agronomist,2,Skilled Trades
+10855,"Hotel, Motel, and Resort Desk Clerks",Night Auditors,Night Auditor,2,Finance
+7769,Massage Therapists,Spa Massage Therapists,Massage Therapist,2,Healthcare
+16505,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",Processors,Processor,2,Skilled Trades
+15417,Tool and Die Makers,Tool and Die Technicians,Tool And Die Maker,2,Operations
+17169,"Production Workers, All Other",Key Carriers,Mail Carrier,2,Operations
+15212,Machinists,CNC Machinists,Cnc Machinist,2,Skilled Trades
+1353,Personal Financial Advisors,Patient Financial Counselors,Patient Accounts Representative,2,Healthcare
+10558,"Bookkeeping, Accounting, and Auditing Clerks",Accounting Assistants,Accounting Assistant,1,Finance
+8589,First-Line Supervisors of Food Preparation and Serving Workers,Catering Captains,Caterer,2,Food Service
+14158,Millwrights,Millwrights,Millwright,2,Operations
+10091,"Securities, Commodities, and Financial Services Sales Agents",Banker Associates,Banker,2,Sales
+15280,"Pourers and Casters, Metal",Recycling Managers,Head Of Managers,6,Operations
+13034,Rail-Track Laying and Maintenance Equipment Operators,Track Inspectors,Inspector,2,Executive
+17730,"Captains, Mates, and Pilots of Water Vessels",Catering Captains,Caterer,2,Operations
+11151,Couriers and Messengers,Bike Couriers,Courier,2,Operations
+7221,Dietetic Technicians,Child Nutrition Assistants,Nutrition Assistant,1,Healthcare
+7113,Diagnostic Medical Sonographers,Registered Sonographers,Sonographer,2,Healthcare
+2746,Industrial Engineering Technologists and Technicians,Maintenance Workers,Maintenance Technician,2,Skilled Trades
+10586,Gambling Cage Workers,Count Team Members,Team Member,2,Operations
+8553,Chefs and Head Cooks,Restaurant Chefs,Chef,2,Executive
+10587,Gambling Cage Workers,Cage Shift Supervisors,Shift Manager,4,Operations
+17277,Commercial Pilots,Pilots Captain,Pilot,2,Operations
+12639,Plasterers and Stucco Masons,Professionals,Sales Professional,2,Sales
+4831,"Special Education Teachers, Middle School",Facilitators,Facilitator,2,Education
+17711,"Captains, Mates, and Pilots of Water Vessels",Boat Captains,Boat Captain,2,Operations
+12214,Carpet Installers,Commercial Carpenters,Carpenter,2,Skilled Trades
+14036,"Control and Valve Installers and Repairers, Except Mechanical Door",Valve Technicians,Service Technician,2,Skilled Trades
+15344,Foundry Mold and Coremakers,Food Runners,Food Runner,2,Operations
+5313,"Fine Artists, Including Painters, Sculptors, and Illustrators",UI Artists,User Interface Designer,2,Design
+9487,Funeral Attendants,Gate Attendants,Attendant,2,Operations
+9867,First-Line Supervisors of Retail Sales Workers,Operations and Training Supervisors,Training Manager,4,Operations
+1213,Market Research Analysts and Marketing Specialists,Product Specialists,Product Specialist,2,Marketing
+1905,Operations Research Analysts,Research Fellows,Research Fellow,2,Data
+2921,Biochemists and Biophysicists,Forensic Toxicologists,Forensics Analyst,2,Data
+11443,Medical Secretaries and Administrative Assistants,Dental Treatment Coordinators,Treatment Coordinator,2,Executive
+7445,Hearing Aid Specialists,Audiology Technicians,Audio Visual Technician,2,Design
+11338,"Shipping, Receiving, and Inventory Clerks",Shipping and Receiving Associates,Receiving Associate,2,Operations
+2395,Mechanical Engineers,Design Engineers,Design Engineer,2,Engineering
+2522,Architectural and Civil Drafters,CAD Drafters,Cad Drafter,2,Engineering
+14727,Engine and Other Machine Assemblers,Engine Builders,Builder,2,Design
+1532,"Financial and Investment Analysts, Financial Risk Specialists, and Financial Specialists, All Other",Fraud Investigators,Fraud Investigator,2,Data
+8532,"School Bus Monitors and Protective Service Workers, All Other",Loss Prevention Customer Service Associates,Loss Prevention Manager,4,Marketing
+7829,Medical Assistants,Orthopedic Medical Assistants,Medical Assistant,1,Healthcare
+12080,First-Line Supervisors of Construction Trades and Extraction Workers,Field Specialists,Field Technician,2,Skilled Trades
+10398,"Sales and Related Workers, All Other",Operations Group Managers,Group Manager,5,Sales
+13055,Rail-Track Laying and Maintenance Equipment Operators,Local Dedicated Truck Drivers,Local Driver,2,Skilled Trades
+5993,Court Reporters and Simultaneous Captioners,Basketball Coaches,Basketball Coach,2,Operations
+5499,Merchandise Displayers and Window Trimmers,Retail Merchandising Supervisors,Merchandise Manager,4,Operations
+10541,Billing and Posting Clerks,Legal Billing Specialists,Billing Specialist,2,Finance
+17511,"Motor Vehicle Operators, All Other",Motor Vehicle Operators,Motor Transport Operator,2,Skilled Trades
+354,Training and Development Managers,Training and Development Managers,Training Manager,4,HR
+14659,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",Precision Assemblers,Assembler,2,Engineering
+11638,"Office Machine Operators, Except Computer",Scan Operators,Test Operator,2,Skilled Trades
+17008,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Finishing Technicians,Finisher,2,Skilled Trades
+11937,Fishing and Hunting Workers     ,Farmers,Farmer,2,Operations
+5113,Library Technicians,Circulation Managers,Circulation Manager,4,Skilled Trades
+15550,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Component Specialists,Sales Specialist,2,Sales
+3806,Nuclear Technicians,Health Physics Technicians,Health Information Technician,2,Healthcare
+12469,Glaziers,Window Installers,Installer,2,Skilled Trades
+7836,Medical Assistants,Medical Support Assistants,Medical Support Assistant,1,Healthcare
+10282,Real Estate Sales Agents,Leasing Specialists,Leasing Specialist,2,Sales
+3746,"Environmental Science and Protection Technicians, Including Health",Hydrologic Technicians,Hydrogeologist,2,Healthcare
+16631,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",Mobile Equipment Operators,Equipment Operator,2,Skilled Trades
+17198,Aircraft Cargo Handling Supervisors,Aircraft Loadmasters,Loader,2,Operations
+12600,Pipelayers,Setters,Set Up Associate,2,Operations
+13205,Continuous Mining Machine Operators,Continuous Improvement Leaders,Learning And Development Facilitator,2,Skilled Trades
+16339,Chemical Plant and System Operators,Nitrogen Operators,Security Operations Center Operator,2,Engineering
+9289,Gambling and Sports Book Writers and Runners,Service Runners,Runner,2,Operations
+17415,Heavy and Tractor-Trailer Truck Drivers,Regional CDL-A Truck Drivers,Regional Driver,2,Executive
+7057,Clinical Laboratory Technologists and Technicians,Medical Technicians,Medical Technician,2,Healthcare
+4077,"Counselors, All Other",Youth Mentors,Youth Mentor,2,Legal
+9506,"Morticians, Undertakers, and Funeral Arrangers",Location Managers,Location Manager,4,Operations
+16147,"Sawing Machine Setters, Operators, and Tenders, Wood",Lumber Graders,Grader,2,Skilled Trades
+6106,Sound Engineering Technicians,Assistant Professors of Theatre,Professor,2,Education
+1248,Accountants and Auditors,Audit Managers,Audit Manager,4,Finance
+8599,"Cooks, Fast Food",Kitchen Team Members,Kitchen Team Member,2,Executive
+8435,Security Guards,Patrol Security Guards,Security Guard,2,Engineering
+793,"Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",Program Managers,Program Manager,5,Product
+7215,Emergency Medical Technicians and Paramedics,Ambulance Driver Emergency Medical Technicians,Emergency Medical Technician,2,Healthcare
+15105,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Print Press Operators,Print Operator,2,Skilled Trades
+13752,Automotive Service Technicians and Mechanics,Level Automotive Technicians,Automotive Technician,2,Skilled Trades
+13889,Motorcycle Mechanics,Assembly Technicians,Assembly Technician,2,Skilled Trades
+216,Financial Managers,Financial Center Managers,Center Manager,4,Finance
+2613,"Drafters, All Other",Mechanical Drafters,Mechanical Drafter,2,Skilled Trades
+7319,Veterinary Technologists and Technicians,Certified Veterinary Technicians,Veterinary Technician,2,Healthcare
+13967,Recreational Vehicle Service Technicians,PDI Technicians,Digital Systems Technician,2,Engineering
+1156,"Compensation, Benefits, and Job Analysis Specialists",Sales Compensation Analysts,Compensation Analyst,2,HR
+4732,"Secondary School Teachers, Except Special and Career/Technical Education",Secondary English Teachers,High School Teacher,2,Education
+15126,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Laborers,Laborer,2,Skilled Trades
+7712,Occupational Therapy Aides,Inpatient Managers,Head Of Managers,6,Healthcare
+327,Human Resources Managers,Human Resources Administrators,Human Resources Administrator,2,HR
+14714,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Manufacturing Assemblers,Assembler,2,Skilled Trades
+8134,Fire Inspectors and Investigators,Fire and Life Safety Technicians,Safety Technician,2,Executive
+8014,First-Line Supervisors of Correctional Officers,Law Enforcement Specialists,Law Enforcement Officer,2,Operations
+11680,Statistical Assistants,Statistical Programming Managers,Analytics Manager,4,Data
+14920,Slaughterers and Meat Packers,Meat Cutters,Meat Cutter,2,Operations
+12334,Construction Laborers,Skilled Laborers,Skilled Laborer,2,Skilled Trades
+12126,Brickmasons and Blockmasons,Player Agents,Agent Assistant,1,Operations
+154,Administrative Services and Facilities Managers,Security Site Supervisors,Site Supervisor,4,Operations
+11058,Reservation and Transportation Ticket Agents and Travel Clerks,Booking Agents,Booking Agent,2,Operations
+11551,Desktop Publishers,Geoscientists,Geoscientist,2,Data
+15467,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Field Technicians,Field Technician,2,Skilled Trades
+16343,Chemical Plant and System Operators,Furnace Operators,Furnace Operator,2,Skilled Trades
+11351,"Shipping, Receiving, and Inventory Clerks",Shipping Leads,Shipping Supervisor,4,Operations
+10410,First-Line Supervisors of Office and Administrative Support Workers,Dental Office Managers,Office Manager,4,Operations
+12063,"Logging Workers, All Other",Year 6 Teachers,Teacher,2,Education
+9580,"Makeup Artists, Theatrical and Performance",Character Artists,Artist,2,Design
+4109,"Child, Family, and School Social Workers",Child Protective Investigators,Child Protection Practitioner,2,Healthcare
+1113,"Meeting, Convention, and Event Planners",Event Services Managers,Event Manager,4,Marketing
+11609,"Office Clerks, General",Clerical Assistants,Clerical Assistant,1,Operations
+12480,Glaziers,Residential Installers,Installer,2,Skilled Trades
+6117,Photographers,Wedding Photographers,Photographer,2,Operations
+6622,"Therapists, All Other",Chemical Dependency Therapists,Chemical Dependency Counselor,2,Healthcare
+12176,Carpenters,Commercial Carpenters,Carpenter,2,Skilled Trades
+5602,Producers and Directors,Executive News Producers,News Producer,2,Executive
+7066,Cardiovascular Technologists and Technicians,Monitor Technicians,Monitor Technician,2,Skilled Trades
+3495,Sociologists,Disability Analysts,Disability Analyst,2,Executive
+13927,Outdoor Power Equipment and Other Small Engine Mechanics,Directors of Luxury Sales,Sales Director,6,Executive
+7096,Diagnostic Medical Sonographers,Ultrasonographers,Ultrasonographer,2,Healthcare
+1751,Computer Programmers,SAS Programmers,Statistical Developer,2,Engineering
+16452,Chemical Equipment Operators and Tenders,Water Treatment Operators,Water Treatment Specialist,2,Skilled Trades
+12793,Helpers--Carpenters,Carpenter Helpers,Carpenter Helper,2,Skilled Trades
+12769,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",Production Helpers,Production Assistant,1,Operations
+2848,Animal Scientists,Veterinary Hospital Managers,Hospitality Manager,4,Healthcare
+10546,Billing and Posting Clerks,Customer Billing Specialists,Billing Specialist,2,Finance
+4733,"Secondary School Teachers, Except Special and Career/Technical Education",High School Biology Teachers,High School Teacher,2,Education
+13858,Motorboat Mechanics and Service Technicians,Marine Mechanics,Marine Engineer,2,Skilled Trades
+11449,Medical Secretaries and Administrative Assistants,Schedulers,Scheduler,2,Operations
+9814,Residential Advisors,Residential Specialists,Residential Specialist,2,Operations
+8462,Crossing Guards and Flaggers,Parking Attendants,Parking Attendant,2,Operations
+7211,Emergency Medical Technicians and Paramedics,Paramedic Instructors,Paramedic,2,Healthcare
+9279,Gambling Dealers,Attendants,Attendant,2,Operations
+12284,Cement Masons and Concrete Finishers,Cement Masons,Mason,2,Operations
+12132,Brickmasons and Blockmasons,Uniform Sales Representatives,Sales Representative,2,Sales
+14455,Commercial Divers,Aquarists,Aquaculture Specialist,2,Operations
+14948,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",Counter Attendants,Counter Attendant,2,Skilled Trades
+542,Architectural and Engineering Managers,Mechanical Project Managers,Mechanical Project Manager,4,Product
+10138,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",Solutions Consultants,Retail Solutions Consultant,2,Sales
+10196,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Key Account Managers,Account Manager,4,Sales
+17159,Helpers--Production Workers,Lead Production Operators,Production Operator,2,Skilled Trades
+6113,Photographers,Real Estate Photographers,Real Estate Associate,2,Operations
+292,"Transportation, Storage, and Distribution Managers",Assistant Warehouse Managers,Warehouse Manager,4,Operations
+2915,Soil and Plant Scientists,Accounts Receivable Specialists,Accounts Receivable Clerk,2,Data
+16760,Medical Appliance Technicians,Technicians,Service Technician,2,Healthcare
+17134,Tire Builders,Fiberglass Technicians,Fiber Technician,2,Design
+10187,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Sales Coordinators,Sales Coordinator,2,Executive
+16846,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders     ",Industrial Spray Painters,Industrial Painter,2,Skilled Trades
+1872,Mathematicians,Computing Specialists,Sales Specialist,2,Sales
+16913,Computer Numerically Controlled Tool Operators     ,Machine Operators,Machine Operator,2,Skilled Trades
+11140,Couriers and Messengers,Food Couriers,Courier,2,Operations
+9733,Tour and Travel Guides,Gate Attendants,Attendant,2,Design
+12331,Construction Laborers,General Laborers,General Worker,2,Skilled Trades
+14051,"Control and Valve Installers and Repairers, Except Mechanical Door",Internal Controls Specialists,Controls Engineer,2,Skilled Trades
+9298,Gambling and Sports Book Writers and Runners,Mutuel Clerks,Clerk,2,Operations
+5581,Actors,Personal Virtual Assistants,Virtual Assistant,1,Executive
+7970,"Healthcare Support Workers, All Other",Residential Support Staff,Support Staff,2,Healthcare
+8629,"Cooks, Institution and Cafeteria",Culinary Specialists,Culinary Specialist,2,Executive
+7775,Massage Therapists,Massage Therapist Aestheticians,Massage Therapist,2,Healthcare
+7433,Orthotists and Prosthetists,Certified Coaches,Coach,2,Operations
+11179,"Dispatchers, Except Police, Fire, and Ambulance",Dispatchers,Dispatcher,2,Operations
+13156,"Service Unit Operators, Oil and Gas",Mobile Service Technicians,Service Technician,2,Skilled Trades
+14681,"Coil Winders, Tapers, and Finishers",Tire Builders,Tire Technician,2,Skilled Trades
+6678,Registered Nurses,Emergency Department Registered Nurses,Registered Nurse - Emergency Room,2,Healthcare
+13568,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Instrument Fitters,Fitter,2,Skilled Trades
+14723,Engine and Other Machine Assemblers,Machine Builders,Builder,2,Design
+9473,Embalmers,Customer Experience Experts,Customer Specialist,2,Operations
+7817,Medical Assistants,Certified Medical Assistants,Certified Medical Assistant,1,Healthcare
+1714,Network and Computer Systems Administrators,Server Administrators,Server Administrator,2,Engineering
+3898,"Life, Physical, and Social Science Technicians, All Other",Quality Control Specialists,Quality Control Supervisor,4,Skilled Trades
+5160,Instructional Coordinators,Elementary Instructional Coaches,Coach,2,Executive
+6436,Podiatrists,Outside Sales Agents,Outside Sales Representative,2,Sales
+12630,"Plumbers, Pipefitters, and Steamfitters",Sprinkler Fitters,Fitter,2,Skilled Trades
+89,Marketing Managers,Growth Marketing Managers,Marketing Manager,4,Marketing
+10731,"Court, Municipal, and License Clerks",Deputy Court Clerks,Court Clerk,2,Operations
+11569,Insurance Claims and Policy Processing Clerks,Account Claims Representatives,Claims Representative,2,Operations
+696,"Property, Real Estate, and Community Association Managers",Assistant Community Managers,Community Manager,4,Operations
+4338,Clergy,Chaplain Assistants,Chaplain,2,Operations
+2694,Electro-Mechanical and Mechatronics Technologists and Technicians,Electronics Technicians,Electronics Technician,2,Skilled Trades
+17483,"Bus Drivers, Transit and Intercity",School Bus Operators,Bus Driver,2,Engineering
+17468,"Bus Drivers, Transit and Intercity",Motor Coach Operators,Motor Transport Operator,2,Skilled Trades
+15497,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Setters,Set Up Associate,2,Skilled Trades
+11084,"Information and Record Clerks, All Other",Elections Clerks,Clerk,2,Operations
+12946,Elevator and Escalator Installers and Repairers,Residential Installers,Installer,2,Skilled Trades
+7866,Medical Transcriptionists,Medical Transcriptionists,Medical Transcriptionist,2,Healthcare
+11317,"Production, Planning, and Expediting Clerks",Supply Chain Technicians,Supply Chain Specialist,2,Operations
+7720,Physical Therapist Assistants,Travel Physical Therapists,Physical Therapist,2,Healthcare
+5698,Dancers,Entertainers,Entertainer,2,Operations
+14038,"Control and Valve Installers and Repairers, Except Mechanical Door",Electrical Controls Technicians,Electrical Technician,2,Skilled Trades
+1062,Logisticians,Manufacturing Planners,Manufacturing Specialist,2,Operations
+14404,Wind Turbine Service Technicians,Repair Technicians,Repair Technician,2,Skilled Trades
+12150,Stonemasons,Cemetery Managers,Head Of Managers,6,Operations
+7290,Psychiatric Technicians,Applied Behavior Analysts,Board Certified Behavior Analyst,2,Data
+10914,"Library Assistants, Clerical",Children's Library Assistants,Library Assistant,1,Operations
+9076,Landscaping and Groundskeeping Workers,Golf Course Maintenance Workers,Maintenance Assistant,1,Skilled Trades
+1702,Network and Computer Systems Administrators,Network Technicians,Network Technician,2,Engineering
+15546,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Casting Operators,Security Operations Center Operator,2,Engineering
+9906,First-Line Supervisors of Non-Retail Sales Workers,Retail Sales Key Holders,Retail Assistant Manager,4,Operations
+1400,Financial Examiners,Financial Crimes Investigators,Financial Crime Investigator,2,Finance
+943,Cost Estimators,Estimators,Estimator,2,Operations
+6806,Anesthesiologists,Interventional Cardiologists,Cardiology Physician,2,Healthcare
+16226,Nuclear Power Reactor Operators,Nuclear Power Plant Operators,Power Plant Operator,2,Executive
+3902,"Life, Physical, and Social Science Technicians, All Other",Quality Systems Specialists,Quality Specialist,2,Skilled Trades
+16247,Power Distributors and Dispatchers,Distribution Systems Managers,Distribution Manager,4,Operations
+10222,Demonstrators and Product Promoters,Guest Experience Ambassadors,Ambassador,2,Operations
+11223,"Meter Readers, Utilities",Utility Workers,Utility Worker,2,Operations
+5694,Dancers,Entertainment Managers,Entertainment Manager,4,Operations
+15271,"Pourers and Casters, Metal",Incident Handlers,Incident Manager,4,Operations
+11640,"Office Machine Operators, Except Computer",Copy Center Specialists,Copy Center Associate,2,Skilled Trades
+7248,Pharmacy Technicians,Hospital Pharmacy Technicians,Hospital Service Technician,2,Healthcare
+5506,Merchandise Displayers and Window Trimmers,Merchandiser Stockers,Merchandiser,2,Retail
+4629,"Preschool Teachers, Except Special Education",Lead Teachers,Lead Teacher,2,Education
+3539,Urban and Regional Planners,Military Planners,Logistics Planner,2,Operations
+12094,Boilermakers,Boilermaker Helpers,Boilermaker,2,Operations
+15922,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",Knitting Instructors,Instructor,2,Executive
+498,"Education Administrators, Postsecondary",University Registrars,Registrar,2,Operations
+10226,Demonstrators and Product Promoters,Inside Wholesalers,Wholesaler,2,Operations
+17892,Transportation Inspectors,Directors of New Products,Director Of Product Management,6,Executive
+14483,Locksmiths and Safe Repairers,Key Technicians,Service Technician,2,Skilled Trades
+10779,Customer Service Representatives,Customer Service Representatives,Customer Service Representative,2,Customer Success
+5214,"Teaching Assistants, Except Postsecondary",Float Teachers,Teacher,2,Education
+17544,Locomotive Engineers,Concessions Runners,Runner,2,Engineering
+7461,Hearing Aid Specialists,Recreation Aides,Recreation Aide,2,Healthcare
+5412,Floral Designers,Floral Designers,Floral Designer,2,Design
+6690,Registered Nurses,Orthopedic Registered Nurses,Registered Nurse,2,Healthcare
+9025,"Building Cleaning Workers, All Other",Commercial Applicators,Commercial Manager,4,Design
+3467,Industrial-Organizational Psychologists,Engineering Psychologists,Psychologist,2,Operations
+2393,Mechanical Engineers,Mechanical Engineers,Mechanical Engineer,2,Engineering
+13785,Farm Equipment Mechanics and Service Technicians,Tractor Technicians,Tractor Operator,2,Executive
+6162,Film and Video Editors,Video Editors,Video Editor,2,Operations
+12384,Operating Engineers and Other Construction Equipment Operators,Operating Engineers,Operating Engineer,2,Skilled Trades
+15198,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Shift Operators,Shift Manager,4,Skilled Trades
+16725,Dental Laboratory Technicians,Sterile Technicians,Sterile Processing Technician,2,Healthcare
+9376,"Ushers, Lobby Attendants, and Ticket Takers",Visitor Services Managers,Service Manager,4,Operations
+950,Cost Estimators,Sales Estimators,Estimator,2,Operations
+4129,Healthcare Social Workers,Home Health Social Workers,Social Worker,2,Healthcare
+11440,Medical Secretaries and Administrative Assistants,Medical Office Receptionists,Medical Receptionist,2,Healthcare
+5917,Technical Writers,Proposal Coordinators,Proposal Coordinator,2,Executive
+9251,Animal Caretakers,Animal Care Specialists,Care Specialist,2,Operations
+4297,"Community and Social Service Specialists, All Other",Organizers,Organizer,2,Operations
+3832,Social Science Research Assistants,Principal Scientists,Principal Scientist,4,Data
+1565,Computer Systems Analysts,React.js Developers,Javascript Developer,2,Engineering
+5321,Special Effects Artists and Animators,Digital Content Producers,Content Producer,2,Design
+12279,Cement Masons and Concrete Finishers,Concrete Finishers,Concrete Finisher,2,Operations
+10183,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",Sales Consultants,Sales Consultant,2,Sales
+13758,Bus and Truck Mechanics and Diesel Engine Specialists,Diesel Mechanics,Diesel Mechanic,2,Skilled Trades
+7746,Physical Therapist Aides,Physical Therapist Technicians,Physical Therapist,2,Healthcare
+17187,Aircraft Cargo Handling Supervisors,Ramp Leads,Baggage Handler,2,Operations
+11827,Agricultural Equipment Operators,Growth Managers,Head Of Managers,6,Skilled Trades
+9793,Recreation Workers,Day Camp Counselors,Camp Counselor,2,Legal
+5877,Public Relations Specialists,Promotions Assistants,Promotions Assistant,1,Marketing
+8742,Bartenders,Salad Bar Attendants,Bar Staff,2,Food Service
+16393,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",Fuel Distribution System Operators,Network Systems Operator,2,Engineering
+12251,Floor Sanders and Finishers,Staffing Professionals,Staffing Specialist,2,Operations
+11294,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",Examiners,Examiner,2,Skilled Trades
+11039,Receptionists and Information Clerks,Agent Team Members,Team Member,2,Operations
+6625,"Therapists, All Other",Exercise Therapists,Therapist,2,Healthcare
+2332,Industrial Engineers,Continuous Improvement Engineers,Learning And Development Facilitator,2,Engineering
+10880,"Interviewers, Except Eligibility and Loan",Admissions Counselors,Admission Counselor,2,Finance
+188,Computer and Information Systems Managers,Systems Engineering Managers,System Engineer,2,Engineering
+7741,Physical Therapist Aides,Physical Therapy Aides,Physical Therapy Aide,2,Healthcare
+4447,"Administrative Law Judges, Adjudicators, and Hearing Officers",Appeals Officers,Medical Officer,2,Healthcare
+14435,"Coin, Vending, and Amusement Machine Servicers and Repairers",Night Attendants,Attendant,2,Skilled Trades
+592,Gambling Managers,Tribal Administrators,Engineering Administrator,2,Operations
+904,"Insurance Appraisers, Auto Damage",Field Supervisors,Field Supervisor,4,Operations
+15957,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",Yard Operators,Yard Driver,2,Skilled Trades
+3999,Marriage and Family Therapists,Clinical Therapists,Clinical Therapist,2,Healthcare
+10169,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Technical Sales Specialists,Technical Sales Engineer,2,Sales
+8857,Dishwashers,Kitchen Dishwashers,Dishwasher,2,Operations
+2182,Civil Engineers,Principal Engineers,Principal Software Engineer,2,Engineering
+17124,Tire Builders,Injection Molding Technicians,Injection Mold Operator,2,Design
+14028,Mechanical Door Repairers,Mechanics,Mechanic,2,Skilled Trades
+918,Compliance Officers,Compliance Specialists,Compliance Officer,2,Legal
+5530,Set and Exhibit Designers,Set Builders,Builder,2,Design
+9879,First-Line Supervisors of Retail Sales Workers,Department Managers,Department Manager,4,Operations
+2980,Zoologists and Wildlife Biologists,Wetland Ecologists,Ecologist,2,Operations
+5367,Commercial and Industrial Designers,Lead Product Designers,Product Designer,2,Design
+10785,Customer Service Representatives,Client Service Representatives,Client Representative,2,Customer Success
+10652,Procurement Clerks,Purchasing Managers,Purchasing Manager,4,Operations
+3706,Biological Technicians,Games Technicians,Gaming Manager,4,Skilled Trades
+2907,Soil and Plant Scientists,Sales Agronomists,Agronomist,2,Data
+11613,"Office Clerks, General",Clerks,Clerk,2,Operations
+10159,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Sales Executive Managers,Sales Executive,2,Sales
+1414,Financial Examiners,AML Specialists,Anti Money Laundering Analyst,2,Data
+7130,Nuclear Medicine Technologists,Medical Technologists,Medical Technologist,2,Healthcare
+8860,Dishwashers,Prepared Foods Managers,Food Manager,4,Operations
+13420,"Radio, Cellular, and Tower Equipment Installers and Repairers",Radio and Communications Security Repairers,Repair Technician,2,Skilled Trades
+9119,Tree Trimmers and Pruners,Line Clearance Trimmers,Trimmer,2,Operations
+13280,"Roustabouts, Oil and Gas",Rapid Response Registered Nurses,Registered Nurse,2,Healthcare
+12552,"Painters, Construction and Maintenance",Maintenance Painters,Painter,2,Skilled Trades
+17016,Cooling and Freezing Equipment Operators and Tenders,Brewers,Brewer,2,Executive
+17668,"Rail Transportation Workers, All Other",Dock Operators,Dock Worker,2,Operations
+8050,First-Line Supervisors of Firefighting and Prevention Workers,Incident Commanders,Commander,2,Marketing
+10327,Sales Engineers,Network Systems Engineers,Network Engineer,2,Engineering
+3254,Materials Scientists,Production Test Technicians,Test Technician,2,Data
+5056,Museum Technicians and Conservators,Access Control Managers,Patient Access Manager,4,Healthcare
+7192,Emergency Medical Technicians and Paramedics,Emergency Medical Technicians - Basic,Emergency Medical Technician,2,Healthcare
+9497,Funeral Attendants,Directors of Packaging,Packager,2,Operations
+12432,Drywall and Ceiling Tile Installers,Installers,Installer,2,Skilled Trades
+16192,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",New Hire Coordinators,Recruiting Coordinator,2,Executive
+9277,Gambling Dealers,Table Games Managers,Gaming Manager,4,Operations
+8318,Transit and Railroad Police,Officers,Medical Officer,2,Healthcare
+5935,Technical Writers,Scientific Technical Writers,Technical Writer,2,Engineering
+269,Purchasing Managers,Global Procurement Managers,Procurement Manager,4,Operations
+698,"Property, Real Estate, and Community Association Managers",Assistant Managers,Supervisor Assistant,4,Operations
+3769,Geological and Hydrologic Technicians,Construction Materials Field Technicians,Field Technician,2,Skilled Trades
+17850,Automotive and Watercraft Service Attendants,Donation Attendants,Attendant,2,Skilled Trades
+7615,Nursing Assistants,Licensed Nursing Assistants,Nursing Assistant,1,Healthcare
+6296,Orthodontists,Orchard Managers,Head Of Managers,6,Operations
+12929,Construction and Building Inspectors,Elevator Inspectors,Inspector,2,Executive
+14656,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",Warehouse Assemblers,Warehouse Worker,2,Engineering
+17904,Transportation Inspectors,Substation Technicians,Digital Systems Technician,2,Executive
+2595,"Drafters, All Other",CAD Drafters,Cad Drafter,2,Operations
+1663,Computer User Support Specialists,Application Support Analysts,Application Analyst,2,Customer Success
+4398,Lawyers,Associate General Counsels,General Counsel,2,Legal
+5333,Special Effects Artists and Animators,3D Animators,3D Animator,2,Design
+7670,Occupational Therapy Assistants,ABA Therapists,Aba Therapist,2,Healthcare
+2705,Electro-Mechanical and Mechatronics Technologists and Technicians,Metrology Calibration Technicians,Metrology Technician,2,Skilled Trades
+15092,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Punch Press Operators,Press Operator,2,Skilled Trades
+736,Social and Community Service Managers,Social Services Case Managers,Case Manager,4,Operations
+17072,"Molders, Shapers, and Casters, Except Metal and Plastic",Injection Molding Machine Operators,Injection Mold Operator,2,Skilled Trades
+11106,Cargo and Freight Agents,Freight Brokers,Freight Broker,2,Operations
+16116,"Model Makers, Wood",Builder Specialists,Builder,2,Design
+1517,Tax Preparers,Virtual Tax Professionals,Tax Professional,2,Finance
+13651,Security and Fire Alarm Systems Installers,Security and Fire Alarm Technicians,Alarm Technician,2,Engineering
+15544,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Salvage Specialists,Sales Specialist,2,Sales
+10566,"Bookkeeping, Accounting, and Auditing Clerks",Accounting Coordinators,Accounting Coordinator,2,Executive
+2901,Soil and Plant Scientists,Soils Technicians,Digital Systems Technician,2,Engineering
+12157,Stonemasons,Academy Managers,Head Of Managers,6,Operations
+14257,Camera and Photographic Equipment Repairers,Light Equipment Operators,Equipment Operator,2,Skilled Trades
+9699,Concierges,Front Desk Concierges,Front Desk Agent,2,Operations
+14638,First-Line Supervisors of Production and Operating Workers,Assembly Supervisors,Assembler,2,Operations
+991,Human Resources Specialists,Credentialing Specialists,Credentialing Specialist,2,HR
+4938,Self-Enrichment Teachers,Guitar Teachers,Teacher,2,Education
+18189,Gas Compressor and Gas Pumping Station Operators,Pipeline Technicians,Pipeline Construction Worker,2,Skilled Trades
+7566,Home Health and Personal Care Aides,Caregivers,Caregiver,2,Healthcare
+6408,Physician Assistants,Hospitalist Physician Assistants,Hospitalist,2,Healthcare
+13112,"Derrick Operators, Oil and Gas",Managers-in-Training,Manager In Training,4,HR
+410,Construction Managers,Electrical Superintendents,Superintendent,2,Skilled Trades
+9675,Baggage Porters and Bellhops,Human Resources Assistants,Human Resources Assistant,1,HR
+680,Postmasters and Mail Superintendents,Delivery Coordinators,Delivery Coordinator,2,Executive
+534,Architectural and Engineering Managers,Engineering Program Managers,Engineering Program Manager,5,Product
+12584,Pipelayers,Pipe Layers,Pipelayer,2,Operations
+15089,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Printing Press Operators,Print Operator,2,Skilled Trades
+16459,Chemical Equipment Operators and Tenders,Cleaning Supervisors,Cleaner,2,Skilled Trades
+1836,"Computer Occupations, All Other",Document Control Specialists,Document Control Specialist,2,Operations
+4204,Health Education Specialists,Educators,Educator,2,Healthcare
+11231,Postal Service Clerks,Rural Carriers,Rural Carrier Associate,2,Operations
+1465,Loan Officers,Consumer Loan Officers,Loan Officer,2,Finance
+858,Buyers and Purchasing Agents,Associate Buyers,Buyer,2,Operations
+15432,Tool and Die Makers,Manufacturing Tooling Engineers,Tooling Engineer,2,Engineering
+7108,Diagnostic Medical Sonographers,Cardiovascular Sonographers,Sonographer,2,Healthcare
+4951,"Substitute Teachers, Short-Term",Substitutes,Substitute,2,Education
+2653,Civil Engineering Technologists and Technicians,Highway Technicians,Service Technician,2,Engineering
+2686,Electrical and Electronic Engineering Technologists and Technicians,Automation Maintenance Technicians,Maintenance Technician,2,Skilled Trades
+9837,"Crematory Operators and Personal Care and Service Workers, All Other",Door Greeters,Greeter,2,Skilled Trades
+12508,"Insulation Workers, Floor, Ceiling, and Wall",Installer Helpers,Installer,2,Skilled Trades
+16492,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",Machine Operators - Grinder,Grinder,2,Skilled Trades
+15613,Prepress Technicians and Workers,Prepress Technicians,Prepress Specialist And Operator,2,Skilled Trades
+3753,"Environmental Science and Protection Technicians, Including Health",Monitoring Technicians,Monitor Technician,2,Healthcare
+7040,"Acupuncturists and Healthcare Diagnosing or Treating Practitioners, All Other",Naturopathic Doctors,Physician,2,Healthcare
+3688,Agricultural and Food Science Technicians,Horticulture Technicians,Horticulturist,2,Skilled Trades
+3433,"Clinical, Counseling, and School Psychologists",Pediatric Psychologists,Psychologist,2,Healthcare
+17900,Transportation Inspectors,Utility Inspectors,Utility Worker,2,Executive
+16871,Semiconductor Processing Technicians,Vending Technicians,Service Technician,2,Executive
+7507,Athletic Trainers,Associate Directors of Athletic Communications,Associate,2,Operations
+18037,Hoist and Winch Operators,Field Operators,Field Operator,2,Skilled Trades
+9327,"Gambling Service Workers, All Other",Slot Managers,Slot Attendant,2,Operations
+11207,"Meter Readers, Utilities",Utility Meter Technicians,Utility Worker,2,Operations
+847,Buyers and Purchasing Agents,Purchasing Agents,Purchasing Agent,2,Operations
+14543,Riggers,Precision Assemblers,Assembler,2,Skilled Trades
+17943,"Aircraft Service Attendants and Transportation Workers, All Other",Operations Instructors,Instructor,2,Executive
+12609,"Plumbers, Pipefitters, and Steamfitters",Plumbers,Plumber,2,Skilled Trades
+14946,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",Continuous Improvement Leaders,Learning And Development Facilitator,2,Skilled Trades
+4056,"Substance Abuse, Behavioral Disorder, and Mental Health Counselors",Licensed Mental Health Counselors,Licensed Professional Counselor,2,Healthcare
+15164,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Lathe Operators,Cnc Lathe Operator,2,Skilled Trades
+10428,"Switchboard Operators, Including Answering Service",PBX Operators,Switchboard Operator,2,Skilled Trades
+10215,Demonstrators and Product Promoters,Community Ambassadors,Ambassador,2,Operations
+17221,"First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors",Inventory Control Supervisors,Inventory Manager,4,Operations
+1837,"Computer Occupations, All Other",Information Security Engineers,Security Engineer,2,Engineering
+15426,Tool and Die Makers,Machinist Toolmakers,Tool Maker,2,Operations
+12364,"Paving, Surfacing, and Tamping Equipment Operators",Asphalt Equipment Operators,Equipment Operator,2,Skilled Trades
+2506,"Engineers, All Other",Optical Engineers,Optical Engineer,2,Engineering
+8468,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",Head Lifeguards,Head Lifeguard,2,Operations
+2641,Aerospace Engineering and Operations Technologists and Technicians,Behavioral Technicians,Behavior Technician,2,Engineering
+14262,Camera and Photographic Equipment Repairers,Workplace Managers,Work Management Planner,2,Design
+12798,Helpers--Carpenters,Trim Carpenters,Carpenter,2,Skilled Trades
+9803,Recreation Workers,Youth Workers,Youth Worker,2,Operations
+15205,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Asphalt Plant Operators,Plant Operator,2,Skilled Trades
+8460,Crossing Guards and Flaggers,Summer School Teachers,School Teacher,2,Education
+10103,Travel Agents,Travel Agents,Travel Agent,2,Operations
+1954,"Data Scientists and Mathematical Science Occupations, All Other",Data Analytics Scientists,Data Scientist,2,Data
+7576,Home Health and Personal Care Aides,Personal Care Aides,Personal Care Assistant,1,Healthcare
+11323,"Production, Planning, and Expediting Clerks",Appointment Schedulers,Appointment Coordinator,2,Executive
+14726,Engine and Other Machine Assemblers,Nurse Injectors,Registered Nurse - Infusion,2,Healthcare
+7361,Ophthalmic Medical Technicians,Collision Technicians,Digital Systems Technician,2,Healthcare
+17596,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers     ",Network Defense Analysts,Network Analyst,2,Engineering
+4279,Community Health Workers,Accessibility Analysts,Data Analyst,2,Data
+2304,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",Directors of Environmental Health and Safety,Environmental Health And Safety Officer,2,Executive
+7734,Physical Therapist Assistants,Activities Assistants,Activity Assistant,1,Healthcare
+1425,Credit Counselors,Credit and Collections Representatives,Credit Representative,2,Engineering
+6220,Chiropractors,Acupuncturists,Acupuncturist,2,Executive
+6638,"Therapists, All Other",Volunteers,Volunteer,2,Healthcare
+16672,"Inspectors, Testers, Sorters, Samplers, and Weighers",Quality Assurance Auditors,Quality Assurance Auditor,2,Executive
+8307,Police and Sheriffs Patrol Officers,Police Recruits,Police Officer,2,Operations
+4079,"Counselors, All Other",Youth Development Coordinators,Youth Coordinator,2,Executive
+15863,Textile Bleaching and Dyeing Machine Operators and Tenders,Water Jet Operators,Wastewater Operator,2,Skilled Trades
+3040,Conservation Scientists,Interpretive Rangers,Park Ranger,2,Data
+15486,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Robot Technicians,Robotics Technician,2,Skilled Trades
+15,Chief Executives,Directors of the Office,Business Office Director,6,Executive
+7210,Emergency Medical Technicians and Paramedics,Paramedic Nurses,Paramedic,2,Healthcare
+16919,Computer Numerically Controlled Tool Operators     ,CNC Technicians,Cnc Operator,2,Skilled Trades
+13279,"Roustabouts, Oil and Gas",Field Technical Service Representatives,Field Representative,2,Operations
+3519,Urban and Regional Planners,Master Planners,Master Scheduler,2,Operations
+6399,Physician Assistants,Certified Physician Assistants,Certified Medical Assistant,1,Healthcare
+835,"Agents and Business Managers of Artists, Performers, and Athletes",Promotional Agents,Promoter,2,Design
+16802,Packaging and Filling Machine Operators and Tenders,Packaging Managers,Package Manager,4,Skilled Trades
+10042,Advertising Sales Agents,Advertising Representatives,Advertising Sales Representative,2,Sales
+2615,"Drafters, All Other",Revit Drafters,Drafter,2,Operations
+15837,"Tailors, Dressmakers, and Custom Sewers",Seamstresses,Seamstress,2,Operations
+15862,Textile Bleaching and Dyeing Machine Operators and Tenders,Automation Operators,Automation Engineer,2,Skilled Trades
+12361,"Paving, Surfacing, and Tamping Equipment Operators",Power Jack Operators,Pallet Jack Operator,2,Skilled Trades
+12355,"Paving, Surfacing, and Tamping Equipment Operators",Asphalt Roller Operators,Security Operations Center Operator,2,Skilled Trades
+6331,Dietitians and Nutritionists,Public Health Nutritionists,Nutritionist,2,Operations
+3378,Economists,Environmental Economists,Economist,2,Operations
+753,Emergency Management Directors,Emergency Response Coordinators,Emergency Services Manager,4,Executive
+13238,"Loading and Moving Machine Operators, Underground Mining     ",Small Equipment Operators,Equipment Operator,2,Skilled Trades
+14460,Commercial Divers,Certified Drivers,Driver,2,Skilled Trades
+7048,Clinical Laboratory Technologists and Technicians,Travel Medical Technologists,Medical Technologist,2,Healthcare
+10861,"Hotel, Motel, and Resort Desk Clerks",Front Desk Clerks,Front Desk Agent,2,Operations
+1562,Computer Systems Analysts,React Developers,Javascript Developer,2,Engineering
+10395,"Sales and Related Workers, All Other",Sales Floor Associates,Sales Associate,2,Retail
+3789,Geological and Hydrologic Technicians,Observers,Observer,2,Food Service
+1071,Management Analysts,Business Process Analysts,Business Process Analyst,2,Data
+7797,Dental Assistants,Expanded Function Dental Assistants,Dental Assistant,1,Healthcare
+7708,Occupational Therapy Aides,Nursing Assistants,Nursing Assistant,1,Healthcare
+6914,"Pediatricians, General",Pediatric Cardiologists,Cardiology Physician,2,Healthcare
+4466,"Administrative Law Judges, Adjudicators, and Hearing Officers",Student Conduct Officers,Medical Officer,2,Healthcare
+7558,"Health Information Technologists, Medical Registrars, Surgical Assistants, and Healthcare Practitioners and Technical Workers, All Other     ",Surgical Oncologists,Surgical Technician,2,Healthcare
+3529,Urban and Regional Planners,Land Use Planners,Land Manager,4,Operations
+10920,"Library Assistants, Clerical",University Assistants,College Assistant,1,Operations
+13577,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Supervisors,Supervisor Assistant,4,Skilled Trades
+3805,Nuclear Technicians,Instrumentation and Controls Specialists,Controls Engineer,2,Engineering
+6561,Respiratory Therapists,Cardiopulmonary Managers,Head Of Managers,6,Healthcare
+15235,Machinists,Tool Room Machinists,Machinist,2,Skilled Trades
+12319,Terrazzo Workers and Finishers,Derivatives Analysts,Customer Service Analyst,2,Customer Success
+2364,Marine Engineers and Naval Architects,Naval Engineers,Design Engineer,2,Engineering
+11768,Agricultural Inspectors,Engineer Inspectors,Inspection Development Engineer,2,Executive
+8145,Forest Fire Inspectors and Prevention Specialists,District Rangers,Park Ranger,2,Executive
+4224,Probation Officers and Correctional Treatment Specialists,Chief People Officers,Chief Medical Officer,9,Healthcare
+11312,"Production, Planning, and Expediting Clerks",Fulfillment Specialists,Fulfillment Associate,2,Operations
+7903,Pharmacy Aides,Mail Order Pharmacy Technicians,Pharmacy Technician,2,Healthcare
+1175,Training and Development Specialists,Learning Specialists,Learning And Development Specialist,2,HR
+14605,"Installation, Maintenance, and Repair Workers, All Other",Fire Extinguisher Technicians,Fire Engineer,2,Skilled Trades
+14771,Structural Metal Fabricators and Fitters,Airport Managers,Airport Manager,4,Operations
+12057,"Logging Workers, All Other",Rigging Managers,Rig Manager,4,Operations
+17003,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Crusher Operators,Security Operations Center Operator,2,Skilled Trades
+15815,"Sewers, Hand",Mattress Sales Associates,Sales Associate,2,Retail
+14851,Bakers,Pastry Sous Chefs,Sous Chef,2,Food Service
+14503,Manufactured Building and Mobile Home Installers,Delivery Coordinators,Delivery Coordinator,2,Executive
+12572,Paperhangers,BO Developers,Developer Consultant,2,Engineering
+4070,"Counselors, All Other",Behavior Analysts,Board Certified Behavior Analyst,2,Data
+878,"Claims Adjusters, Examiners, and Investigators",Workers' Compensation Claims Representatives,Claims Representative,2,Operations
+8259,Fish and Game Wardens,Wildlife Technicians,Service Technician,2,Skilled Trades
+5943,Writers and Authors,UX Writers,User Experience Designer,2,Design
+6926,Psychiatrists,Child and Adolescent Psychiatry Physicians,Psychiatrist,2,Operations
+13883,Motorcycle Mechanics,Motorcycle Technicians,Service Technician,2,Skilled Trades
+17151,Helpers--Production Workers,Production Employees,Production Worker,2,Operations
+9445,"Locker Room, Coatroom, and Dressing Room Attendants",Common Area Attendants,Attendant,2,Operations
+2282,Environmental Engineers,Environmentalists,Environmental Scientist,2,Engineering
+7068,Cardiovascular Technologists and Technicians,Echo Technicians,Echocardiologist,2,Skilled Trades
+14231,Telecommunications Line Installers and Repairers,Fiber Optic Splicers,Optical Assistant,1,Skilled Trades
+4939,Self-Enrichment Teachers,Enrichment Teachers,Teacher,2,Education
+15214,Machinists,Manual Machinists,Manual Machinist,2,Skilled Trades
+3248,Materials Scientists,Material Science Engineers,Materials Engineer,2,Engineering
+15096,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Offset Press Operators,Press Operator,2,Skilled Trades
+903,"Insurance Appraisers, Auto Damage",Auto Damage Trainees,Auto Appraiser,2,Operations
+10767,"Credit Authorizers, Checkers, and Clerks",Regional Credit Officers,Chief Credit Officer,9,Engineering
+14513,Manufactured Building and Mobile Home Installers,Furniture Delivery Drivers,Delivery Driver,2,Skilled Trades
+13812,"Mobile Heavy Equipment Mechanics, Except Engines",Heavy Equipment Shop Technicians,Equipment Technician,2,Skilled Trades
+4440,Judicial Law Clerks,Law Fellows,Attorney At Law,2,Legal
+3290,"Environmental Scientists and Specialists, Including Health",Environmental Field Specialists,Environmental Specialist,2,Healthcare
+9933,Cashiers,Front End Cashiers,Front End Associate,2,Retail
+18295,"Tank Car, Truck, and Ship Loaders",Loaders Pickers,Order Picker,2,Operations
+990,Human Resources Specialists,Onboarding Specialists,Onboarding Manager,4,HR
+15128,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Yard People,Yard Worker,2,Skilled Trades
+14111,Industrial Machinery Mechanics,Industrial Mechanics,Industrial Mechanic,2,Skilled Trades
+10675,Tellers,Client Service Associates,Client Services Associate,2,Customer Success
+9408,Amusement and Recreation Attendants,Pool and Beach Attendants,Pool Attendant,2,Operations
+12220,"Floor Layers, Except Carpet, Wood, and Hard Tiles",Installer Helpers,Installer,2,Skilled Trades
+9993,Parts Salespersons,Auto Parts Managers,Parts Manager,4,Sales
+9619,Manicurists and Pedicurists,Licensed Cosmetologists,Cosmetologist,2,Operations
+4746,"Career/Technical Education Teachers, Secondary School",Driving Instructors,Driving Instructor,2,Executive
+7977,"Healthcare Support Workers, All Other",Direct Support Managers,Support Manager,4,Healthcare
+12483,Glaziers,Installers,Installer,2,Skilled Trades
+4195,Health Education Specialists,Nurse Educators,Educator,2,Healthcare
+16478,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",Kiln Operators,Security Operations Center Operator,2,Engineering
+11249,Postal Service Clerks,Scanning Assistants,Engineering Assistant,1,Engineering
+13788,Farm Equipment Mechanics and Service Technicians,Equipment Service Technicians,Equipment Technician,2,Skilled Trades
+17242,"Airline Pilots, Copilots, and Flight Engineers",Aircraft Pilots,Pilot,2,Engineering
+9885,First-Line Supervisors of Non-Retail Sales Workers,Sales Leads,Sales Lead,2,Sales
+4664,"Kindergarten Teachers, Except Special Education",Parent Liaisons,Liaison,2,Education
+10365,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",Field Canvassers,Canvasser,2,Sales
+18062,Industrial Truck and Tractor Operators,Warehouse Shift Managers,Shift Manager,4,Executive
+8051,First-Line Supervisors of Firefighting and Prevention Workers,Assistant Fire Marshals,Fire Engineer,2,Engineering
+11517,Word Processors and Typists,Document Management Technicians,Documentation Manager,4,Operations
+9802,Recreation Workers,Camp Directors,Camp Director,6,Executive
+13061,Septic Tank Servicers and Sewer Pipe Cleaners,Public Works Officers,Public Safety Officer,2,Skilled Trades
+10828,"Eligibility Interviewers, Government Programs",Open Enrollment Coordinators,Enrollment Manager,4,Operations
+7543,"Health Information Technologists, Medical Registrars, Surgical Assistants, and Healthcare Practitioners and Technical Workers, All Other     ",Surgical Dental Assistants,Surgical Assistant,1,Healthcare
+11732,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",Irrigation Foremen,Landscape Technician,2,Skilled Trades
+6627,"Therapists, All Other",Behavioral Health Therapists,Behavioral Therapist,2,Healthcare
+9887,First-Line Supervisors of Non-Retail Sales Workers,Assistant Store Leaders,Assistant Leader,1,Sales
+17006,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",Fleet Managers,Fleet Manager,4,Skilled Trades
+10050,Advertising Sales Agents,Inside Advertising Sales Representatives,Advertising Sales Representative,2,Sales
+935,Compliance Officers,AML Compliance Analysts,Anti Money Laundering Analyst,2,Data
+15355,Foundry Mold and Coremakers,Journeymen,Journeyman,2,Operations
+4577,"Legal Support Workers, All Other",Reviewers,Ads Reviewer,2,Legal
+3303,"Geoscientists, Except Hydrologists and Geographers",Spectral Geologists,Geologist,2,Data
+15408,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Machine Mechanics,Mechanic,2,Skilled Trades
+16162,"Sawing Machine Setters, Operators, and Tenders, Wood",Utility Operators,Utility Operator,2,Skilled Trades
+8089,"Miscellaneous First-Line Supervisors, Protective Service Workers",Detective Sergeants,Detective,2,Operations
