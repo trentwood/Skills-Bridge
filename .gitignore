@@ -1,4 +1,5 @@
-# Large data files (tracked with Git LFS or excluded)
+# Large generated data files (>100MB) - must be generated locally via notebook
+# See README.md for setup instructions
 data/skills/skill_variations.parquet
 data/skills/skill_variations_embeddings.npy
 
