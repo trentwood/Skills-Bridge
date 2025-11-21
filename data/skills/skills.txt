@@ -1,0 +1,505 @@
+# Skills-Bridge Sample Skills List
+# Replace this file with your own skills list to build a custom skill extraction service
+# One skill per line - the notebook will generate embeddings and taxonomy from this list
+
+# Programming Languages
+Python
+JavaScript
+Java
+C++
+C#
+Ruby
+Go
+Rust
+Swift
+Kotlin
+TypeScript
+PHP
+Scala
+R Programming
+MATLAB
+Perl
+Shell Scripting
+PowerShell
+SQL
+NoSQL
+
+# Web Development
+HTML
+CSS
+React
+Angular
+Vue.js
+Node.js
+Django
+Flask
+Spring Framework
+ASP.NET
+RESTful APIs
+GraphQL
+Web Services
+Frontend Development
+Backend Development
+Full Stack Development
+Responsive Design
+Web Accessibility
+Progressive Web Apps
+Single Page Applications
+
+# Data & Analytics
+Data Analysis
+Data Visualization
+Statistical Analysis
+Machine Learning
+Deep Learning
+Natural Language Processing
+Computer Vision
+Predictive Modeling
+Data Mining
+Big Data
+Apache Spark
+Hadoop
+Data Warehousing
+ETL Processes
+Business Intelligence
+Tableau
+Power BI
+Looker
+Data Governance
+Data Quality
+
+# Cloud & Infrastructure
+Amazon Web Services
+Microsoft Azure
+Google Cloud Platform
+Cloud Architecture
+Cloud Security
+Kubernetes
+Docker
+Containerization
+Microservices
+Serverless Computing
+Infrastructure as Code
+Terraform
+Ansible
+CI/CD Pipelines
+DevOps
+Site Reliability Engineering
+System Administration
+Network Administration
+Linux Administration
+Windows Server
+
+# Databases
+MySQL
+PostgreSQL
+MongoDB
+Redis
+Elasticsearch
+Oracle Database
+SQL Server
+DynamoDB
+Cassandra
+Database Design
+Database Administration
+Query Optimization
+Data Modeling
+Database Migration
+Stored Procedures
+
+# Cybersecurity
+Information Security
+Network Security
+Application Security
+Cloud Security
+Security Architecture
+Penetration Testing
+Vulnerability Assessment
+Security Compliance
+Identity Management
+Access Control
+Encryption
+Firewall Management
+Incident Response
+Security Auditing
+Risk Assessment
+
+# Project Management
+Project Planning
+Agile Methodology
+Scrum
+Kanban
+Waterfall Methodology
+Project Scheduling
+Resource Allocation
+Risk Management
+Stakeholder Management
+Project Budgeting
+Scope Management
+Change Management
+Quality Assurance
+Project Documentation
+JIRA
+Asana
+Microsoft Project
+Trello
+Confluence
+
+# Business Analysis
+Requirements Gathering
+Business Process Analysis
+Gap Analysis
+Use Case Development
+User Stories
+Process Mapping
+Business Requirements Documentation
+Functional Specifications
+Systems Analysis
+Workflow Analysis
+Cost-Benefit Analysis
+Feasibility Studies
+Business Case Development
+
+# Leadership & Management
+Team Leadership
+People Management
+Performance Management
+Talent Development
+Succession Planning
+Organizational Development
+Strategic Planning
+Decision Making
+Conflict Resolution
+Delegation
+Mentoring
+Coaching
+Employee Engagement
+Team Building
+Cross-functional Leadership
+
+# Communication
+Written Communication
+Verbal Communication
+Presentation Skills
+Public Speaking
+Technical Writing
+Business Writing
+Report Writing
+Email Communication
+Active Listening
+Interpersonal Communication
+Cross-cultural Communication
+Stakeholder Communication
+Executive Communication
+Storytelling
+Persuasion
+
+# Sales & Business Development
+Sales Strategy
+Account Management
+Lead Generation
+Sales Forecasting
+Pipeline Management
+Negotiation
+Client Relationship Management
+Business Development
+Territory Management
+Sales Presentations
+Closing Techniques
+Consultative Selling
+Solution Selling
+CRM Software
+Salesforce
+
+# Marketing
+Digital Marketing
+Content Marketing
+Social Media Marketing
+Email Marketing
+Search Engine Optimization
+Search Engine Marketing
+Pay-Per-Click Advertising
+Marketing Analytics
+Brand Management
+Market Research
+Marketing Strategy
+Campaign Management
+Marketing Automation
+Copywriting
+Content Strategy
+
+# Finance & Accounting
+Financial Analysis
+Financial Modeling
+Budgeting
+Forecasting
+Financial Reporting
+Cost Accounting
+Management Accounting
+Accounts Payable
+Accounts Receivable
+General Ledger
+Tax Preparation
+Audit
+Compliance
+Financial Planning
+Cash Flow Management
+
+# Human Resources
+Recruitment
+Talent Acquisition
+Onboarding
+Employee Relations
+Compensation and Benefits
+Performance Reviews
+Training and Development
+HR Compliance
+Workforce Planning
+HRIS Systems
+Diversity and Inclusion
+Employee Retention
+Labor Relations
+HR Analytics
+Payroll Management
+
+# Operations
+Operations Management
+Process Improvement
+Lean Manufacturing
+Six Sigma
+Supply Chain Management
+Inventory Management
+Logistics
+Procurement
+Vendor Management
+Quality Control
+Production Planning
+Capacity Planning
+Facilities Management
+Warehouse Management
+Distribution
+
+# Customer Service
+Customer Support
+Customer Success
+Customer Experience
+Help Desk Support
+Technical Support
+Call Center Operations
+Customer Retention
+Complaint Resolution
+Service Level Agreements
+Customer Feedback Analysis
+CRM Management
+Client Onboarding
+Account Support
+
+# Product Management
+Product Strategy
+Product Roadmap
+Product Development
+Product Launch
+Product Lifecycle Management
+User Research
+Competitive Analysis
+Pricing Strategy
+Go-to-Market Strategy
+Product Analytics
+Feature Prioritization
+Backlog Management
+A/B Testing
+Product Marketing
+
+# Design
+User Experience Design
+User Interface Design
+Graphic Design
+Visual Design
+Interaction Design
+Information Architecture
+Wireframing
+Prototyping
+Usability Testing
+Design Systems
+Adobe Creative Suite
+Figma
+Sketch
+Design Thinking
+Brand Identity
+
+# Software Development
+Software Architecture
+Object-Oriented Programming
+Functional Programming
+Test-Driven Development
+Code Review
+Version Control
+Git
+Software Testing
+Unit Testing
+Integration Testing
+Debugging
+API Development
+SDK Development
+Mobile Development
+Desktop Development
+
+# Artificial Intelligence
+Artificial Intelligence
+Machine Learning Engineering
+Deep Learning Frameworks
+TensorFlow
+PyTorch
+Neural Networks
+Reinforcement Learning
+AI Ethics
+MLOps
+Model Deployment
+Feature Engineering
+Hyperparameter Tuning
+Transfer Learning
+Generative AI
+Large Language Models
+
+# Data Engineering
+Data Pipelines
+Data Integration
+Stream Processing
+Apache Kafka
+Apache Airflow
+Data Lake Architecture
+Real-time Analytics
+Data Cataloging
+Schema Design
+Data Transformation
+Batch Processing
+
+# Business Strategy
+Strategic Analysis
+Competitive Intelligence
+Market Analysis
+Business Model Development
+Growth Strategy
+Mergers and Acquisitions
+Corporate Strategy
+Innovation Management
+Digital Transformation
+Change Leadership
+
+# Legal & Compliance
+Contract Management
+Regulatory Compliance
+Corporate Governance
+Intellectual Property
+Privacy Compliance
+GDPR
+Data Protection
+Legal Research
+Contract Negotiation
+Risk Compliance
+
+# Healthcare
+Healthcare Administration
+Clinical Operations
+Medical Terminology
+Healthcare Compliance
+HIPAA
+Electronic Health Records
+Patient Care
+Healthcare Analytics
+Medical Billing
+Healthcare Quality
+
+# Manufacturing
+Manufacturing Processes
+Production Management
+Industrial Engineering
+Automation
+Robotics
+CAD/CAM
+Quality Engineering
+Materials Management
+Assembly Line Management
+Manufacturing Safety
+
+# Retail
+Retail Management
+Merchandising
+Store Operations
+Inventory Control
+Visual Merchandising
+Point of Sale Systems
+Retail Analytics
+E-commerce
+Omnichannel Retail
+Customer Loyalty Programs
+
+# Soft Skills
+Problem Solving
+Critical Thinking
+Analytical Thinking
+Creativity
+Innovation
+Adaptability
+Time Management
+Organization
+Attention to Detail
+Multitasking
+Emotional Intelligence
+Self-Motivation
+Initiative
+Accountability
+Professionalism
+
+# Collaboration
+Teamwork
+Collaboration Tools
+Remote Collaboration
+Virtual Team Management
+Cross-functional Collaboration
+Partnership Development
+Consensus Building
+Group Facilitation
+Meeting Management
+Knowledge Sharing
+
+# Research
+Research Methods
+Qualitative Research
+Quantitative Research
+Survey Design
+Data Collection
+Literature Review
+Research Analysis
+Academic Writing
+Peer Review
+Research Ethics
+
+# Training & Education
+Instructional Design
+Curriculum Development
+E-Learning Development
+Training Delivery
+Learning Management Systems
+Adult Learning
+Workshop Facilitation
+Knowledge Transfer
+Educational Technology
+Assessment Design
+
+# Additional Technical Skills
+API Integration
+Webhooks
+OAuth
+JSON
+XML
+Regular Expressions
+Command Line
+SSH
+FTP
+DNS Management
+Load Balancing
+Caching Strategies
+Message Queues
+WebSockets
+gRPC

@@ -7,7 +7,7 @@ A comprehensive labor market intelligence platform combining job architecture an
 Skills-Bridge provides two complementary microservices:
 
 1. **Job Architecture Service** - Job title normalization, career path analysis, and job search using 18,000+ SOC titles
-2. **Skill Extraction Service** - Extract skills from text using semantic similarity with 32,000+ skill taxonomy
+2. **Skill Extraction Service** - Extract skills from text using semantic similarity (includes 500 sample skills; bring your own skills list)
 
 Both services use AI-powered semantic matching via sentence transformers for intelligent matching and normalization.
 
@@ -19,17 +19,22 @@ Both services use AI-powered semantic matching via sentence transformers for int
 pip install -r requirements.txt
 ```
 
-### 2. Generate Data Files (First Time Setup)
+### 2. Generate Skills Data (Required First Time Setup)
 
-The skill variation files are large (>100MB) and must be generated locally:
+The project includes a sample `skills.txt` with 500 common business skills. You must run the notebook to generate the embeddings and taxonomy:
 
 ```bash
 cd notebooks
 jupyter notebook "Skill Taxonomy and Extraction.ipynb"
 # Run all cells to generate:
+# - data/skills/skill_taxonomy.parquet
+# - data/skills/skill_taxonomy.json
+# - data/skills/skill_canonical_embeddings.npy
 # - data/skills/skill_variations.parquet
 # - data/skills/skill_variations_embeddings.npy
 ```
+
+**To use your own skills:** Replace `data/skills/skills.txt` with your own list (one skill per line), then re-run the notebook.
 
 The job architecture data is included, but can be regenerated with:
 ```bash
@@ -114,10 +119,11 @@ Skills-Bridge/
 - `POST /extract` - Extract skills from text
 
 **Features:**
-- 32,000+ skills with variations
+- Customizable skills list (500 sample skills included)
 - N-gram based semantic matching
 - Configurable thresholds and deduplication
 - Length penalty for partial matches
+- Bring your own skills taxonomy
 
 ## Use Cases
 
