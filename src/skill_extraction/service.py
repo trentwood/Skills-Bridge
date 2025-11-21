@@ -410,37 +410,32 @@ class SkillExtractor:
         if not skills:
             return skills
 
-        # Limit to top 50 skills for efficiency
-        skills_to_validate = skills[:50]
+        # Limit to top 30 skills for efficiency (reduced from 50 to prevent truncation)
+        skills_to_validate = skills[:30]
         skill_names = [s['canonical_name'] for s in skills_to_validate]
 
         # Build context description
         if context:
             context_desc = f"about {context}"
         else:
-            # Try to infer context from text
-            text_preview = text[:500] + "..." if len(text) > 500 else text
-            context_desc = "with the following content"
+            context_desc = ""
 
         # Create prompt for batch validation
         skills_list = "\n".join([f"- {name}" for name in skill_names])
 
-        prompt = f"""Analyze this text {context_desc}:
+        prompt = f"""Rate each skill's relevance to this text{context_desc}:
 
----
 {text[:1500]}
----
 
-For each skill below, rate its relevance as a job requirement or capability mentioned in the text.
-Score from 0.0 (not relevant - just mentioned incidentally) to 1.0 (highly relevant - core skill/requirement).
+Rate from 0.0 (not relevant/incidental) to 1.0 (core requirement).
 
-Skills to evaluate:
+Skills:
 {skills_list}
 
-Return ONLY a valid JSON object with skill names as keys and relevance scores as values.
-Example format: {{"Python": 0.95, "Benefits": 0.1, "Machine Learning": 0.85}}
+Return ONLY JSON with skill names as keys and scores as values.
+Example: {{"Python": 0.95, "Benefits": 0.1}}
 
-JSON response:"""
+JSON:"""
 
         try:
             # Call Ollama
@@ -449,7 +444,7 @@ JSON response:"""
                 prompt=prompt,
                 options={
                     "temperature": 0,  # Zero temperature for deterministic results
-                    "num_predict": 2500,  # Increased to handle more skills
+                    "num_predict": 3500,  # Increased to handle skill ratings
                 }
             )
 
