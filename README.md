@@ -124,6 +124,40 @@ Skills-Bridge/
 - Configurable thresholds and deduplication
 - Length penalty for partial matches
 - Bring your own skills taxonomy
+- **LLM-powered relevance validation** (optional, via Ollama)
+
+### LLM Relevance Validation (Optional)
+
+Filter out irrelevant skills using a local LLM. For example, when parsing a software engineer job posting, skills like "Benefits" or "Compensation" that appear in the text but aren't job requirements get filtered out.
+
+**Setup:**
+```bash
+# Install Ollama (Mac)
+brew install ollama
+
+# Pull a model (choose based on your hardware)
+ollama pull llama3.2:3b    # Fast, 4GB RAM
+ollama pull mistral:7b      # Better quality, 8GB RAM
+```
+
+**Usage:**
+```bash
+curl -X POST http://localhost:8000/extract \
+  -H "Content-Type: application/json" \
+  -d '{
+    "text": "We are looking for a Python developer... competitive benefits...",
+    "validate_relevance": true,
+    "context": "software engineer",
+    "ollama_model": "llama3.2:3b",
+    "relevance_threshold": 0.5
+  }'
+```
+
+**Parameters:**
+- `validate_relevance`: Enable LLM validation (default: false)
+- `context`: Hint about the text type (e.g., "software engineer job posting")
+- `ollama_model`: Model to use (default: "llama3.2:3b")
+- `relevance_threshold`: Minimum relevance score to keep skill (default: 0.5)
 
 ## Use Cases
 

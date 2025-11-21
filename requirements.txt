@@ -26,6 +26,9 @@ requests>=2.31.0
 python-dotenv>=1.0.0
 tqdm>=4.65.0
 
+# Local LLM integration (optional, for skill relevance validation)
+ollama>=0.3.0
+
 # Development & visualization
 jupyter>=1.0.0
 matplotlib>=3.7.0

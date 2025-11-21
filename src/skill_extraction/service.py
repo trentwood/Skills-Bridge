@@ -20,12 +20,21 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import re
+import json
 from pathlib import Path
 import logging
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Try to import ollama for LLM validation
+try:
+    import ollama
+    OLLAMA_AVAILABLE = True
+except ImportError:
+    OLLAMA_AVAILABLE = False
+    logger.warning("Ollama not installed. LLM validation will not be available.")
 
 # ============================================================================
 # Data Models
@@ -41,6 +50,11 @@ class ExtractionRequest(BaseModel):
     dedup_threshold: float = Field(0.85, description="Similarity threshold for deduplication", ge=0, le=1)
     apply_length_penalty: bool = Field(True, description="Apply penalty for partial matches")
     max_results: Optional[int] = Field(None, description="Maximum number of results to return", ge=1)
+    # LLM validation parameters
+    validate_relevance: bool = Field(False, description="Use LLM to validate skill relevance")
+    context: Optional[str] = Field(None, description="Context hint for relevance validation (e.g., 'software engineer')")
+    ollama_model: str = Field("llama3.2:3b", description="Ollama model for validation")
+    relevance_threshold: float = Field(0.5, description="Minimum relevance score to keep skill", ge=0, le=1)
 
 
 class SkillResult(BaseModel):
@@ -51,6 +65,7 @@ class SkillResult(BaseModel):
     matched_text: str = Field(..., description="Text that matched from input")
     matched_variation: Optional[str] = Field(None, description="Variation that was matched")
     raw_similarity: Optional[float] = Field(None, description="Raw similarity before adjustments")
+    relevance_score: Optional[float] = Field(None, description="LLM-assessed relevance to context (0-1)")
 
 
 class ExtractionResponse(BaseModel):
@@ -66,6 +81,7 @@ class HealthResponse(BaseModel):
     model_loaded: bool
     skills_loaded: int
     variations_loaded: int
+    ollama_available: bool = Field(False, description="Whether Ollama is available for LLM validation")
 
 
 class StatsResponse(BaseModel):
@@ -354,10 +370,10 @@ class SkillExtractor:
     def get_stats(self) -> Dict[str, Any]:
         """Get service statistics"""
         avg_skills = (
-            self.total_skills_extracted / self.total_requests 
+            self.total_skills_extracted / self.total_requests
             if self.total_requests > 0 else 0
         )
-        
+
         return {
             'total_requests': self.total_requests,
             'total_skills_extracted': self.total_skills_extracted,
@@ -365,6 +381,120 @@ class SkillExtractor:
             'model_name': self.model_name,
             'taxonomy_size': len(self.skills_df)
         }
+
+    def validate_relevance_with_llm(
+        self,
+        text: str,
+        skills: List[Dict[str, Any]],
+        context: Optional[str] = None,
+        model: str = "llama3.2:3b",
+        relevance_threshold: float = 0.5
+    ) -> List[Dict[str, Any]]:
+        """
+        Use a local LLM via Ollama to validate skill relevance to the text context.
+
+        Args:
+            text: Original text that was analyzed
+            skills: List of extracted skills
+            context: Optional context hint (e.g., "software engineer job posting")
+            model: Ollama model to use
+            relevance_threshold: Minimum relevance score to keep skill
+
+        Returns:
+            Filtered list of skills with relevance_score added
+        """
+        if not OLLAMA_AVAILABLE:
+            logger.warning("Ollama not available, skipping LLM validation")
+            return skills
+
+        if not skills:
+            return skills
+
+        # Limit to top 50 skills for efficiency
+        skills_to_validate = skills[:50]
+        skill_names = [s['canonical_name'] for s in skills_to_validate]
+
+        # Build context description
+        if context:
+            context_desc = f"about {context}"
+        else:
+            # Try to infer context from text
+            text_preview = text[:500] + "..." if len(text) > 500 else text
+            context_desc = "with the following content"
+
+        # Create prompt for batch validation
+        skills_list = "\n".join([f"- {name}" for name in skill_names])
+
+        prompt = f"""Analyze this text {context_desc}:
+
+---
+{text[:1500]}
+---
+
+For each skill below, rate its relevance as a job requirement or capability mentioned in the text.
+Score from 0.0 (not relevant - just mentioned incidentally) to 1.0 (highly relevant - core skill/requirement).
+
+Skills to evaluate:
+{skills_list}
+
+Return ONLY a valid JSON object with skill names as keys and relevance scores as values.
+Example format: {{"Python": 0.95, "Benefits": 0.1, "Machine Learning": 0.85}}
+
+JSON response:"""
+
+        try:
+            # Call Ollama
+            response = ollama.generate(
+                model=model,
+                prompt=prompt,
+                options={
+                    "temperature": 0.1,  # Low temperature for consistency
+                    "num_predict": 1000,  # Limit response length
+                }
+            )
+
+            response_text = response['response'].strip()
+
+            # Try to parse JSON from response
+            # Handle cases where model includes extra text
+            json_match = re.search(r'\{[^{}]*\}', response_text, re.DOTALL)
+            if json_match:
+                relevance_scores = json.loads(json_match.group())
+            else:
+                logger.warning(f"Could not parse JSON from LLM response: {response_text[:200]}")
+                return skills
+
+            # Apply relevance scores and filter
+            validated_skills = []
+            for skill in skills_to_validate:
+                skill_name = skill['canonical_name']
+                # Try to find matching score (case-insensitive)
+                relevance = None
+                for key, score in relevance_scores.items():
+                    if key.lower() == skill_name.lower():
+                        relevance = float(score)
+                        break
+
+                if relevance is None:
+                    # If not found in response, keep with neutral score
+                    relevance = 0.5
+
+                skill['relevance_score'] = relevance
+
+                # Filter by threshold
+                if relevance >= relevance_threshold:
+                    validated_skills.append(skill)
+
+            # Sort by relevance score (descending), then by original score
+            validated_skills.sort(key=lambda x: (x.get('relevance_score', 0), x['score']), reverse=True)
+
+            logger.info(f"LLM validation: {len(skills_to_validate)} -> {len(validated_skills)} skills")
+            return validated_skills
+
+        except Exception as e:
+            logger.error(f"LLM validation failed: {e}")
+            # Return original skills if validation fails
+            return skills
 
 
 # ============================================================================
@@ -422,12 +552,13 @@ async def health_check():
     """Health check endpoint"""
     if extractor is None:
         raise HTTPException(status_code=503, detail="Service not initialized")
-    
+
     return HealthResponse(
         status="healthy",
         model_loaded=True,
         skills_loaded=len(extractor.skills_df),
-        variations_loaded=len(extractor.variations_df)
+        variations_loaded=len(extractor.variations_df),
+        ollama_available=OLLAMA_AVAILABLE
     )
 
 
@@ -458,7 +589,7 @@ async def extract_skills(request: ExtractionRequest):
     try:
         import time
         start_time = time.time()
-        
+
         # Extract skills
         results = extractor.extract_from_text(
             text=request.text,
@@ -470,12 +601,22 @@ async def extract_skills(request: ExtractionRequest):
             apply_length_penalty=request.apply_length_penalty,
             max_results=request.max_results
         )
-        
+
+        # Optionally validate relevance with LLM
+        if request.validate_relevance and results:
+            results = extractor.validate_relevance_with_llm(
+                text=request.text,
+                skills=results,
+                context=request.context,
+                model=request.ollama_model,
+                relevance_threshold=request.relevance_threshold
+            )
+
         processing_time = (time.time() - start_time) * 1000  # Convert to ms
-        
+
         # Convert to response model
         skills = [SkillResult(**result) for result in results]
-        
+
         return ExtractionResponse(
             skills=skills,
             total_detected=len(skills),
