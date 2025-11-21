@@ -19,7 +19,24 @@ Both services use AI-powered semantic matching via sentence transformers for int
 pip install -r requirements.txt
 ```
 
-### 2. Start Services
+### 2. Generate Data Files (First Time Setup)
+
+The skill variation files are large (>100MB) and must be generated locally:
+
+```bash
+cd notebooks
+jupyter notebook "Skill Taxonomy and Extraction.ipynb"
+# Run all cells to generate:
+# - data/skills/skill_variations.parquet
+# - data/skills/skill_variations_embeddings.npy
+```
+
+The job architecture data is included, but can be regenerated with:
+```bash
+jupyter notebook job_architecture_with_soc.ipynb
+```
+
+### 3. Start Services
 
 **Job Architecture Service** (Flask, port 5001):
 ```bash
