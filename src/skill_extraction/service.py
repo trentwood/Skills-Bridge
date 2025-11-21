@@ -53,7 +53,7 @@ class ExtractionRequest(BaseModel):
     # LLM validation parameters
     validate_relevance: bool = Field(True, description="Use LLM to validate skill relevance")
     context: Optional[str] = Field(None, description="Context hint for relevance validation (e.g., 'software engineer')")
-    ollama_model: str = Field("llama3.2:3b", description="Ollama model for validation")
+    ollama_model: str = Field("mistral:7b", description="Ollama model for validation")
     relevance_threshold: float = Field(0.5, description="Minimum relevance score to keep skill", ge=0, le=1)
 
 
