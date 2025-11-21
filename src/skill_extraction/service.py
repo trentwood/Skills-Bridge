@@ -449,41 +449,81 @@ JSON response:"""
                 prompt=prompt,
                 options={
                     "temperature": 0,  # Zero temperature for deterministic results
-                    "num_predict": 1000,  # Limit response length
+                    "num_predict": 2500,  # Increased to handle more skills
                 }
             )
 
             response_text = response['response'].strip()
 
             # Try to parse JSON from response
-            # Handle cases where model includes extra text
-            json_match = re.search(r'\{[^{}]*\}', response_text, re.DOTALL)
-            if json_match:
-                relevance_scores = json.loads(json_match.group())
-            else:
-                logger.warning(f"Could not parse JSON from LLM response: {response_text[:200]}")
+            # Find JSON object - handle potential nested content
+            try:
+                # First try to find JSON starting from first {
+                start_idx = response_text.find('{')
+                if start_idx != -1:
+                    # Find matching closing brace
+                    brace_count = 0
+                    end_idx = start_idx
+                    for i, char in enumerate(response_text[start_idx:], start_idx):
+                        if char == '{':
+                            brace_count += 1
+                        elif char == '}':
+                            brace_count -= 1
+                            if brace_count == 0:
+                                end_idx = i + 1
+                                break
+                    json_str = response_text[start_idx:end_idx]
+                    relevance_scores = json.loads(json_str)
+                else:
+                    logger.warning(f"No JSON found in LLM response: {response_text[:200]}")
+                    return skills
+            except json.JSONDecodeError as e:
+                logger.warning(f"Could not parse JSON from LLM response: {e}")
                 return skills
+
+            # Build lookup dict with normalized keys for better matching
+            normalized_scores = {}
+            for key, score in relevance_scores.items():
+                normalized_scores[key.lower().strip()] = float(score)
 
             # Apply relevance scores and filter
             validated_skills = []
+            unmatched_count = 0
             for skill in skills_to_validate:
                 skill_name = skill['canonical_name']
-                # Try to find matching score (case-insensitive)
-                relevance = None
-                for key, score in relevance_scores.items():
-                    if key.lower() == skill_name.lower():
-                        relevance = float(score)
-                        break
+                normalized_name = skill_name.lower().strip()
 
-                if relevance is None:
-                    # If not found in response, keep with neutral score
-                    relevance = 0.5
+                # Try exact match first
+                if normalized_name in normalized_scores:
+                    relevance = normalized_scores[normalized_name]
+                else:
+                    # Try partial matching for hyphenated/spaced variants
+                    relevance = None
+                    for key, score in normalized_scores.items():
+                        # Check if key contains skill name or vice versa
+                        if key in normalized_name or normalized_name in key:
+                            relevance = score
+                            break
+                        # Check without hyphens/underscores
+                        key_clean = key.replace('-', ' ').replace('_', ' ')
+                        name_clean = normalized_name.replace('-', ' ').replace('_', ' ')
+                        if key_clean == name_clean:
+                            relevance = score
+                            break
+
+                    if relevance is None:
+                        # Not found - assign low score for incidental mentions
+                        relevance = 0.1
+                        unmatched_count += 1
 
                 skill['relevance_score'] = relevance
 
                 # Filter by threshold
                 if relevance >= relevance_threshold:
                     validated_skills.append(skill)
+
+            if unmatched_count > 0:
+                logger.info(f"LLM did not rate {unmatched_count} skills (assigned 0.1)")
 
             # Sort by relevance score (descending), then by original score
             validated_skills.sort(key=lambda x: (x.get('relevance_score', 0), x['score']), reverse=True)
