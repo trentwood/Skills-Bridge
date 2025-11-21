@@ -416,12 +416,12 @@ class SkillExtractor:
 
         # Build context description
         if context:
-            context_desc = f"about {context}"
+            context_desc = f" about {context}"
         else:
             context_desc = ""
 
-        # Create prompt for batch validation
-        skills_list = "\n".join([f"- {name}" for name in skill_names])
+        # Create prompt with numbered skills for reliable matching
+        skills_list = "\n".join([f"{i}: {name}" for i, name in enumerate(skill_names)])
 
         prompt = f"""Rate each skill's relevance to this text{context_desc}:
 
@@ -432,8 +432,8 @@ Rate from 0.0 (not relevant/incidental) to 1.0 (core requirement).
 Skills:
 {skills_list}
 
-Return ONLY JSON with skill names as keys and scores as values.
-Example: {{"Python": 0.95, "Benefits": 0.1}}
+Return ONLY JSON with skill numbers as keys and scores as values.
+Example: {{"0": 0.95, "1": 0.1, "2": 0.85}}
 
 JSON:"""
 
@@ -476,40 +476,21 @@ JSON:"""
                 logger.warning(f"Could not parse JSON from LLM response: {e}")
                 return skills
 
-            # Build lookup dict with normalized keys for better matching
-            normalized_scores = {}
-            for key, score in relevance_scores.items():
-                normalized_scores[key.lower().strip()] = float(score)
-
-            # Apply relevance scores and filter
+            # Apply relevance scores using index-based matching
             validated_skills = []
             unmatched_count = 0
-            for skill in skills_to_validate:
-                skill_name = skill['canonical_name']
-                normalized_name = skill_name.lower().strip()
+            for i, skill in enumerate(skills_to_validate):
+                # Try to get score by index (as string or int)
+                relevance = None
+                if str(i) in relevance_scores:
+                    relevance = float(relevance_scores[str(i)])
+                elif i in relevance_scores:
+                    relevance = float(relevance_scores[i])
 
-                # Try exact match first
-                if normalized_name in normalized_scores:
-                    relevance = normalized_scores[normalized_name]
-                else:
-                    # Try partial matching for hyphenated/spaced variants
-                    relevance = None
-                    for key, score in normalized_scores.items():
-                        # Check if key contains skill name or vice versa
-                        if key in normalized_name or normalized_name in key:
-                            relevance = score
-                            break
-                        # Check without hyphens/underscores
-                        key_clean = key.replace('-', ' ').replace('_', ' ')
-                        name_clean = normalized_name.replace('-', ' ').replace('_', ' ')
-                        if key_clean == name_clean:
-                            relevance = score
-                            break
-
-                    if relevance is None:
-                        # Not found - assign low score for incidental mentions
-                        relevance = 0.1
-                        unmatched_count += 1
+                if relevance is None:
+                    # Not found - assign low score
+                    relevance = 0.1
+                    unmatched_count += 1
 
                 skill['relevance_score'] = relevance
 
