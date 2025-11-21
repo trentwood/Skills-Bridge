@@ -51,7 +51,7 @@ class ExtractionRequest(BaseModel):
     apply_length_penalty: bool = Field(True, description="Apply penalty for partial matches")
     max_results: Optional[int] = Field(None, description="Maximum number of results to return", ge=1)
     # LLM validation parameters
-    validate_relevance: bool = Field(False, description="Use LLM to validate skill relevance")
+    validate_relevance: bool = Field(True, description="Use LLM to validate skill relevance")
     context: Optional[str] = Field(None, description="Context hint for relevance validation (e.g., 'software engineer')")
     ollama_model: str = Field("llama3.2:3b", description="Ollama model for validation")
     relevance_threshold: float = Field(0.5, description="Minimum relevance score to keep skill", ge=0, le=1)
@@ -448,7 +448,7 @@ JSON response:"""
                 model=model,
                 prompt=prompt,
                 options={
-                    "temperature": 0.1,  # Low temperature for consistency
+                    "temperature": 0,  # Zero temperature for deterministic results
                     "num_predict": 1000,  # Limit response length
                 }
             )
